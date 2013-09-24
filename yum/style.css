@@ -53,4 +53,12 @@ table {
 
 /* END RESET */
 
+h1 { 
+	color:purple;
+	text-transform:uppercase;
+	font-size:2em;
+	font-family:univers;
 
+
+
+}
