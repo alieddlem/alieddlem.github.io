@@ -59,8 +59,10 @@ h1 {
 	font-size:30px;
 	line-height:1em;
 	font-family:univers;
-	padding:10px;
-	border:;
+	padding-bottom:5px;
+	border-bottom:3px solid teal;
+	margin:10px;
+	opacity:.5;
 
 
 }
@@ -71,6 +73,7 @@ nav {
 	font-weight:bold;
 	line-height:1em;
 	padding:10px;
+	opacity:.75;
 }
 
 article {
@@ -78,7 +81,8 @@ article {
 	font-size:10px;
 	line-height:1.25em;
 	color:teal;
-	margin:60px;
+	margin-left:60px;
+	margin-top:60px;
 }
 
 a {
@@ -86,5 +90,5 @@ a {
 	color:salmon;
 	font-family:Univers;
 	font-size:9px;
-	margin:60px;
+	margin-left:70px;
 }
