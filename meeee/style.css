@@ -49,25 +49,41 @@ table {
 
 /* Add Styles Here */
 body { 
-	font-family:Univers; 
-	font-size:14px; 
-	color:salmon;
-	text-align:center; 
+	font-family:Gill Sans; 
+	font-size:13px; 
+	color:black;
+	text-align:center;
+	background-color:#C1A7A7; 
 }
-section#content { 
+section #content { 
 	margin:0 
 	auto; 
 	width:960px; 
-	padding:20px 0px; }
+	padding:20px 0px; 
+}
 
 h1 { font-size:60px; 
 	font-weight:bold; 
 	color:black; 
-	text-align:center; }
-h2 { font-size:40px; 
+	text-align:center;
+	font-family:Gill Sans;
+	margin-top:30px;
+}
+h2 { font-size:30px; 
 	font-weight:bold; 
 	color:black; 
-	text-align:center; }
+	text-align:center;
+	font-variant:small-caps;
+	font-family:Gill Sans;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	border-bottom:4px solid black; 
+}
 p { 
 	padding-bottom:10px; 
+}
+img {
+	width:400px;
+	padding:10px;
+	margin:10px;
 }

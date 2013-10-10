@@ -48,5 +48,44 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
 
+}
+#site-header{
+	color:#8B5B3A;
+	text-decoration:none;
+}
+#site-header a{
+	color:#8B5B3A;
+	text-decoration:none;
+}
+#menu-wrapper {
+	float:left;
+	width:600px;
+	line-height:1em;
+}
+#main-menu a {
+	text-decoration:none;
+	background-color:#8B5B3A;
+	text-decoration:none;
+	list-style:none;
+	float:left;
+	width:600px;
+	color:pink;
+}
+#content-wrapper {
+	color:#8B5B3A;
+}
+#sidebar a{
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#8B5B3A;
+}
+#site-footer {
+	color:purple;
+	float:left;
+	width:600px;
+}
+#follow-footer{
+	color:#8B5B3A;
+}
