@@ -89,3 +89,8 @@ table {
 #follow-footer{
 	color:#8B5B3A;
 }
+
+img a {
+	float:left;
+	width:300px;
+}
