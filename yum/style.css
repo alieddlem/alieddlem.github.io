@@ -54,15 +54,15 @@ table {
 /* END RESET */
 
 h1 { 
-	color:salmon;
+	color:#004449;
 	text-transform:uppercase;
 	font-size:30px;
 	line-height:1em;
+	font-weight:bold;
 	font-family:univers;
 	padding-bottom:5px;
-	border-bottom:3px solid teal;
+	border-bottom:3px solid #004449;
 	margin:10px;
-	opacity:.5;
 
 
 }
@@ -73,22 +73,25 @@ nav {
 	font-weight:bold;
 	line-height:1em;
 	padding:10px;
-	opacity:.75;
 }
 
 article {
 	font-family:univers;
 	font-size:10px;
 	line-height:1.25em;
-	color:teal;
+	color:#004449;
 	margin-left:60px;
 	margin-top:60px;
 }
 
 a {
 	text-transform:none;
-	color:salmon;
+	color:#004449;
 	font-family:Univers;
 	font-size:9px;
 	margin-left:70px;
+}
+body {
+	background-color:#BCD9DD;
+	opacity:.5;
 }
