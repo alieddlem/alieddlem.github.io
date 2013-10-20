@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1em;
 	width:600px;
-	margin-top:300px;
+	margin-top:150px;
 	font-family:Gill Sans;
 }
 ol, ul {
@@ -53,9 +53,20 @@ table {
 	border-spacing: 0;
 
 }
+#site-wrapper {
+	position:relative;
+}
 #site-header{
 	color:#8B5B3A;
 	text-decoration:none;
+}
+#top-nav a{
+	text-align:right;
+	position:absolute;
+	right:600px;
+	bottom:200px;
+	clear:both;
+	margin:10px;
 }
 #site-header a{
 	color:#8B5B3A;
@@ -65,8 +76,6 @@ table {
 	float:left;
 	width:600px;
 	line-height:1em;
-	float:left;
-	width:600px;
 	clear:both;
 }
 #main-menu a{
@@ -77,7 +86,7 @@ table {
 	list-style:none;
 	padding:10px;
 	color:white;
-	width:600px;
+	border-top:150px solid yellow;
 }
 #content-wrapper {
 	color:#8B5B3A;
