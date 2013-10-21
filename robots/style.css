@@ -129,3 +129,18 @@ header nav {}
 	float:left;
 	width:300px;
 }
+
+#site-footer {
+	background-color:indigo;
+}
+#footer-contact {
+	float:left;
+	width:300px;
+	background-color:salmon;
+	clear:left;
+}
+#footer-follow {
+	float:right;
+	width:300px;
+	clear:right;
+}
