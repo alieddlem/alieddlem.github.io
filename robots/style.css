@@ -54,7 +54,9 @@ table {
 
 body {
 	background-color:pink;
-	width:960px;
+	margin:0 auto;
+	width:100%;
+
 
 
 }
@@ -63,11 +65,20 @@ body {
 
 header nav {}
 
+#site-wrapper {
+	width:100%;
+	background-color:brown;
+}
+
 #site-header {
 	background-color:teal;
 	position:relative;
 	height:200px;
+	width:100%;
+	margin:0 auto;
+	width:960px;
 }
+
 
 #top-nav {
 	background-color:orange;
@@ -80,6 +91,16 @@ header nav {}
 	list-style:none;
 	background-color:red;
 	text-decoration:none;
+}
+#main-menu li{
+	float:left;
+	padding:20px;
+	background-color:green;
+	text-transform:uppercase;
+}
+
+#content {
+	clear:left;
 }
 
 #site-header h1 a{
