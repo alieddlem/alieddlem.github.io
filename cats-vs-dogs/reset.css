@@ -31,9 +31,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
+
+
 ol, ul {
 	list-style: none;
 }
@@ -74,6 +74,13 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 /* END RESET */
+body {
+	line-height:1.5em;
+	margin:0px auto;
+	font-family:Helvetica;
+	width:960px;
+	position:relative;
+}
 
 article{
 	float:left;
@@ -88,17 +95,12 @@ article{
 }
 
 nav {
-	float:left;
-	width:400px;
-	text-transform:upercase;
+	margin:0 auto;
+	position:absolute;
+	top:150px;
+	left:200px;
+	text-transform:uppercase;
 	font-weight:bold;
-}
-
-li {
-	float:left;
-	width:75px;
-	font-size:15px;
-	line-height:1em;
 
 }
 
@@ -127,7 +129,16 @@ p {
 }
 
 head {
+	display:inline-block;
+	text-align:center;
+	position:relative;
 	
+}
+#logo {
+	position:absolute;
+	top:10px;
+	left:255px;
+	background-color:yellow;
 }
 footer {
 	float:left;
@@ -139,4 +150,17 @@ footer {
 	margin:20px;
 	padding:10px;
 	clear:both;
+}
+
+#topnav li {
+	float:left;
+	width:75px;
+	font-size:15px;
+	line-height:1em;
+	color:black;
+}
+
+.mainnav {
+	float:left;
+	width:200px;
 }
