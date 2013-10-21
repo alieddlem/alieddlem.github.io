@@ -83,6 +83,8 @@ header nav {}
 #top-nav {
 	background-color:orange;
 	position:absolute;
+	margin:0 auto;
+	width:100%;
 	top:10px;
 	right:0;
 }
@@ -97,8 +99,15 @@ header nav {}
 	padding:20px;
 	background-color:green;
 	text-transform:uppercase;
-}
+	margin:0 auto;
+	text-align:center;
 
+}
+#content-wrapper {
+	float:left;
+	width:960px;
+
+}
 #content {
 	clear:left;
 }
@@ -109,4 +118,14 @@ header nav {}
  height:123px;  
  background:url(images/logo.png) no-repeat top left; 
  text-indent:-9999px;
+}
+
+#sidebar {
+	float:right;
+	width:300px;
+}
+
+#page {
+	float:left;
+	width:300px;
 }
