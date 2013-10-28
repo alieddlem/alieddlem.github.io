@@ -57,8 +57,8 @@ body {
 	width:100%;
 	color:#76481b;
 	font-family:Gill Sans;
-
-
+	padding:10px
+	margin:10px;
 
 }
 
@@ -118,7 +118,7 @@ header nav {}
 
 #site-header h1 a{
 	display:block;  
- width:300px; 
+ width:400px; 
  height:123px;  
  background:url(images/logo.png) no-repeat top left; 
  text-indent:-9999px;
@@ -126,12 +126,11 @@ header nav {}
 
 #sidebar {
 	float:right;
-	width:300px;
+	width:400px;
 }
 
 #page {
-	float:left;
-	width:300px;
+	width:400px;
 }
 
 #site-footer {
@@ -139,13 +138,16 @@ header nav {}
 }
 #footer-contact {
 	float:left;
-	width:300px;
+	width:400px;
 	clear:left;
 	color:#d5cfb6;
 	background-color:#76481b;
 }
 #footer-follow {
 	float:right;
-	width:300px;
+	width:400px;
 	clear:right;
+}
+#footer-follow li a{
+	clear:both;
 }

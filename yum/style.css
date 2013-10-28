@@ -54,26 +54,22 @@ table {
 /* END RESET */
 
 h1 { 
-	color:#004449;
-	text-transform:uppercase;
-	font-size:30px;
-	line-height:1em;
+	text-indent:-9999px;
 	font-weight:bold;
 	font-family:univers;
-	padding-bottom:5px;
-	border-bottom:3px solid #004449;
-	margin:10px;
-	margin-top:40px;
-	text-align:center;
 
 
 }
+
+img {
+	margin:10px;
+}
+
 nav {
 	font-size:11px;
-	font-weight:bold;
 	line-height:1em;
 	padding:10px;
-	text-align:center;
+	text-align:left;
 }
 
 article {
@@ -84,7 +80,7 @@ article {
 	color:#004449;
 	margin-left:60px;
 	margin-top:10px;
-	text-align:center;
+	text-align:left;
 }
 
 a {
@@ -93,9 +89,16 @@ a {
 	font-family:Univers;
 	font-size:9px;
 	margin-left:70px;
-	text-align:center;
+	text-align:left;
 }
 body {
 	background-color:#BCD9DD;
-	opacity:.5;
+    font-family:Univers;
+	font-size:9px;
+	
+}
+
+footer {
+	font-style:italic;
+	margin:10px;
 }
