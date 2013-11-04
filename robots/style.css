@@ -140,7 +140,8 @@ header nav {}
 }
 
 #site-footer {
-	background-color:#76481b;
+	margin:0 auto;
+	width:960px;
 }
 #footer-contact {
 	float:left;
@@ -159,7 +160,7 @@ header nav {}
 }
 
 #footer-wrapper {
-	background-color:red;
+	background-color:#76481b;
     height:200px;
     clear:both;
 }
@@ -167,4 +168,9 @@ header nav {}
 #main-menu a{
 	color:white;
 	text-decoration:none;
+}
+
+p {
+	width:200;
+	float:left;
 }
