@@ -49,18 +49,22 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
+
+
 #site-header h1 a {
- display:block;  
- width:300px; 
- height:80px;  
- background:url(images/simplelogo5.png) no-repeat top left; 
- text-indent:-9999px;
- }
+	display:block;
+	width:300px;
+	height:80px;
+	background:url(images/simplelogo6.png) no-repeat top left;
+	text-indent:-9999px;
+}
 
  body {
  	font-family:Univers;
  	font-size:10px;
  	text-decoration:none;
+ 	width:100%;
+ 	margin:0 auto;
  }
 
  #first-nav li{
@@ -81,13 +85,13 @@ table {
 
  }
 
- #menu-wrapper a{
+ #menu-wrapper nav{
  	list-style:none;
  	font-size:14px;
  	line-height:1.5em;
  	text-transform:uppercase;
  	float:left;
- 	width:600px;
+ 	width:100%;
  	text-align:center;
  	margin:20px;
  	padding:10px;
@@ -101,8 +105,8 @@ table {
  	list-style:none;
  	text-decoration:none;
  	line-height:1.5em;
- 	float:left;
- 	width:600px;
+ 	width:200px;
+ 	text-align:center;
  	margin:20px;
  	padding:20px;
  }
