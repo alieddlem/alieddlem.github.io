@@ -77,11 +77,11 @@ table {
  	border: 3px solid black;
  	padding:200px;
  	margin:50px;
- 	clear:left;
+ 	clear:right;
 
  }
 
- #menu-wrapper li{
+ #menu-wrapper a{
  	list-style:none;
  	font-size:14px;
  	line-height:1.5em;
@@ -98,12 +98,24 @@ table {
  #second-layout {
  	font-family:bodoni;
  	color:pink;
+ 	list-style:none;
+ 	text-decoration:none;
+ 	line-height:1.5em;
+ 	float:left;
+ 	width:600px;
+ 	margin:20px;
+ 	padding:20px;
  }
 
- #scrolling-portfolio li {
+ #scrolling-portfolio {
  	list-style:none;
  	text-decoration:none;
  	text-transform:uppercase;
  	color:teal;
 
+ }
+
+ #scrolling-portfolio li{
+ 	border:2px solid black;
+ 	padding:100px;
  }
