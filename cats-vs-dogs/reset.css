@@ -74,6 +74,7 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 /* END RESET */
+
 body {
 	font-size:10px;
 	line-height:1.5em;
