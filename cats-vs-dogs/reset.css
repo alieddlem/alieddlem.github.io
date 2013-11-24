@@ -76,17 +76,15 @@ html[xmlns] .clearfix { display: block; }
 /* END RESET */
 
 body {
-	font-size:10px;
+	font-size:1em;
 	line-height:1.5em;
 	margin:0 auto;
 	font-family:Helvetica;
-	width:960px;
+	width:100%;
 }
 
 #site-header h1 a {
 	display:block;
-	width:450px;
-	height:100px;
 	margin:0 auto;
 	background:url(images/dogvscat-logo.gif) no-repeat top left;
 	text-indent:-9999px;
@@ -106,11 +104,11 @@ nav {
 img {
 	float:left;
 	width:250px;
-	margin:10px;
+	margin:2%;
 }
 
 p {
-	padding:10px;
+	padding: 2%;
 }
 
 head {
@@ -136,13 +134,13 @@ text-align:center;
 
 footer {
 	float:left;
-	width:400px;
+	width:100%;
 	font-family:bodoni;
-	font-size:10px;
+	font-size:2%;
 	color:indigo;
 	line-height:1em;
-	margin:20px;
-	padding:10px;
+	margin:3%;
+	padding:2%;
 	clear:both;
 }
 
