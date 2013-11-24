@@ -97,7 +97,9 @@ nav {
 	text-transform:uppercase;
 	font-weight:bold;
 	float:left;
-	width:960px;
+	width:100%;
+	margin-top:40%;
+	font-size:2em;
 
 }
 
@@ -129,7 +131,9 @@ ul {
 #logo {
 display:inline-block;
 width:300px;
+text-align:center;
 }
+
 footer {
 	float:left;
 	width:400px;
@@ -144,5 +148,5 @@ footer {
 
 #content-wrapper {
 	float:left;
-	width:960px;
+	width:100%;
 }
