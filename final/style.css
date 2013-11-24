@@ -62,8 +62,13 @@ text-decoration:none;
 
 header {
 	text-align:center;
+	padding-top:4%;
 }
 
+p {
+	float:right;
+	width:50%;
+}
 
 
 
