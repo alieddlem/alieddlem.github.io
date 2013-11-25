@@ -130,7 +130,20 @@ h1 {
 	margin-top:4%;
 }
 
+  #contact-wrapper p {
+  	width:100%;
+  }
 
+  #contact-wrapper img {
+    width:75%;
+
+  }
+
+  #image-wrapper {
+  	float:right;
+  	width:75%;
+  	margin-top:4%;
+  }
 
 
 
