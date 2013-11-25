@@ -72,6 +72,8 @@ color:blueviolet;
 header {
 	text-align:center;
 	padding-top:4%;
+	background-color: rgba(236, 220, 199, 0.44);
+	padding-bottom: 1%;
 }
 
 #portfolio-wrapper {
