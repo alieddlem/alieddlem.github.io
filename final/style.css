@@ -103,15 +103,13 @@ footer {
 }
 
 h1 {
-	float:right;
-	width:100%;
-	margin-bottom:0px;
+	font-size:1.5em;
 }
 
-ul {
-	float:left;
-	width:100%;
-	margin-top:2%;
+#intro-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
 }
 
 
