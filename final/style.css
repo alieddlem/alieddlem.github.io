@@ -53,13 +53,14 @@ body {
 	font-size:1em;
 	line-height:1.5em;
 	margin:0 auto;
-}
-
-nav {
 	position:relative;
 }
 
-ul {
+nav {
+	
+}
+
+#nav-wrapper {
 list-style:none;
 text-decoration:none;
 padding-left:2%;
