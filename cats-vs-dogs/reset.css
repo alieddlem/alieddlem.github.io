@@ -154,6 +154,7 @@ footer {
 header h1 {
 	display:inline-block;
 	font-family: 'league_gothicregular';
+	font-size:3em;
 }
 
 header h2 {
