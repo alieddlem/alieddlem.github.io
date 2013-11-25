@@ -77,11 +77,25 @@ header {
 
 p {
 	float:right;
-	width:50%;
+	width:75%;
+	margin-top:4%;
 }
 
+#portfolio-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+}
 
+#contact-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+}
 
+footer {
+	clear:both;
+}
 
 
 
