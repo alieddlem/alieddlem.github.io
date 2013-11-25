@@ -80,6 +80,7 @@ header {
 }
 nav a:hover {opacity:.5;}
 img a:hover {opacity:.5;}
+footer a:hover {opacity:.5;}
 
 .current {
 	color:orange;
