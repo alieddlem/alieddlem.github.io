@@ -83,12 +83,6 @@ body {
 	width:100%;
 }
 
-#site-header h1 a {
-	display:block;
-	margin:0 auto;
-	background:url(images/dogvscat-logo.gif) no-repeat top left;
-	text-indent:-9999px;
-}
 
 nav {
 	margin:0 auto;
