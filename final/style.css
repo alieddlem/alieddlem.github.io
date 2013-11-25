@@ -108,20 +108,20 @@ h1 {
 
 #home {
 	position:absolute;
-	top:160px;
+	top:10px;
 }
 
 #portfolio {
 	position:absolute;
-	top:180px;
+	top:30px;
 }
 #about {
 	position:absolute;
-	top:200px;
+	top:50px;
 }
 #blog {
 	position:absolute;
-	top:220px;
+	top:70px;
 }
 
 #blog-description {
