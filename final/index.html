@@ -3,10 +3,11 @@
   <head>
 	<meta charset="UTF-8">
 	<title>Home</title>
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
-<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	   <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+     <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" />
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+     <script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+     <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" />
   </head>
  <body>
     <header>
@@ -24,11 +25,14 @@
    </nav>
    <section id='intro-wrapper'>
    <p>Hello, welcome to my portfolio site!</p>
-   <div id="slider" class="nivoSlider">
+ <div class="slider-wrapper theme-default">
+    <div class="ribbon"></div>
+    <div id="slider" class="nivoSlider">
     <img src="images/Woods.jpg" alt="#" />
     <a href="http://dev7studios.com"><img src="images/letters.jpg" alt="" title="Letters" /></a>
     <img src="images/Woods.jpg" alt="#" title="This is an example of a caption" />
     <img src="images/letters.jpg" alt="#" />
+  </div>
 </div>
 <div id="htmlcaption" class="nivo-html-caption">
     <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
