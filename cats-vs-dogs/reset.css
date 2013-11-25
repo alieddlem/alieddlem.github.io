@@ -88,9 +88,7 @@ nav {
 	margin:0 auto;
 	text-transform:uppercase;
 	font-weight:bold;
-	float:left;
 	width:100%;
-	margin-top:40%;
 	font-size:2em;
 
 }
@@ -112,9 +110,7 @@ head {
 	
 }
 
-ul {
-	float:left;
-	width:50%;
+#mainnav li{
 	display:inline-block;
 	text-align:center;
 }
