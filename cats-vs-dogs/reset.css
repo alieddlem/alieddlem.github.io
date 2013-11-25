@@ -177,3 +177,12 @@ article {
     body { }
 
   }
+
+  #contact-wrapper p {
+  	width:50%;
+  }
+
+  #contact-wrapper img {
+    width:50%;
+
+  }
