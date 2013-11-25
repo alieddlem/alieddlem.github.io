@@ -65,8 +65,8 @@ list-style:none;
 text-decoration:none;
 padding-left:2%;
 position:absolute;
-top:10px;
-left:20px;
+top:100%;
+left:1%;
 font-size:2em;
 color:blueviolet;
 }
@@ -78,7 +78,7 @@ header {
 
 p {
 	float:right;
-	width:75%;
+	width:100%;
 	margin-top:4%;
 }
 
@@ -96,6 +96,18 @@ p {
 
 footer {
 	clear:both;
+}
+
+h1 {
+	float:right;
+	width:100%;
+	margin-bottom:0px;
+}
+
+ul {
+	float:left;
+	width:100%;
+	margin-top:2%;
 }
 
 
