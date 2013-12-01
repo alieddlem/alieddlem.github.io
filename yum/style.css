@@ -85,7 +85,6 @@ a {
 	text-align:left;
 }
 body {
-	background-color:#BCD9DD;
     font-family:Univers;
 	font-size:9px;
 	
@@ -94,4 +93,33 @@ body {
 footer {
 	font-style:italic;
 	margin:10px;
+}
+
+#body-text {
+	position:relative;
+}
+
+#ingredients {
+	position: absolute;
+    top: -480px;
+    left: 100px;
+}
+
+#directions-2 {
+	position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+#directions-3 {
+	position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+.directions {
+	position: absolute;
+    top: -400px;
+    left: 120px;
+    width: 200px;
 }
