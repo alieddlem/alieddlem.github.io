@@ -198,6 +198,15 @@ article h1 {
 	text-align:center;
 }
 
+#second-image img {
+	width:95%;
+}
+
+#first-image img {
+	width:89%;
+
+}
+
 #first-image {
 	text-align:center;
 }
