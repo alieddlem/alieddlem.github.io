@@ -87,7 +87,13 @@ footer a:hover {opacity:.5;}
 	color:orange;
 }
 
-#portfolio-wrapper {
+#ethics-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+}
+
+#up-all-night-wrapper {
 	float:right;
 	width:75%;
 	margin-top:4%;
@@ -153,11 +159,6 @@ h1 {
 
   }
 
-  #image-wrapper {
-  	float:right;
-  	width:75%;
-  	margin-top:4%;
-  }
 
 $('#slider').nivoSlider({
     effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
