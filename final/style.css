@@ -185,7 +185,17 @@ footer a:hover {opacity:.5;}
     #contact-wrapper img {
     width:70%;
 }
-#blog-description {
+    #blog-description {
+	margin-top: 20%;
+    margin-left: 2%;
+    clear:both;
+}
+     #ethics-wrapper {
+	margin-top: 20%;
+    margin-left: 2%;
+    clear:both;
+}
+    #up-all-night-wrapper {
 	margin-top: 20%;
     margin-left: 2%;
     clear:both;
