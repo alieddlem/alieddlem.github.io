@@ -151,17 +151,18 @@ header h2 {
 	font-style:italic;
 	font-size: 4em;
     color: grey;
-    border-top: 4px solid grey;
+    border-top: .5px solid grey;
     padding-top: 20%;
     padding-bottom: 20%;
-    border-bottom: 4px solid grey;
+    border-bottom: .5px solid grey;
+    vertical-align: text-bottom;
 }
 
 #vs {
 	display: inline-block;
-	border-top: 1px solid grey;
+	border-top: 4px solid grey;
     padding-top: .5%;
-    border-bottom: 1px solid grey;
+    border-bottom: 4px solid grey;
     padding-bottom: .5%;
 }
 
