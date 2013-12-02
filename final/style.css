@@ -168,6 +168,10 @@ footer a:hover {opacity:.5;}
     color:(87, 21, 204, 0.50);
   }
 
+  #portfolio-wrapper img {
+  	width:12%;
+  }
+
  @media screen and (max-width:900px) {
     body { }
     #contact-wrapper img {
