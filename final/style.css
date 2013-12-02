@@ -158,14 +158,16 @@ footer a:hover {opacity:.5;}
     width:75%;
   }
 
-  #portfolio-wrapper h1{
+  #portfolio-wrapper h2{
     width:75%;
-    color:(87, 21, 204, 0.82);
+    font-size:1.5em;
+    color:rgba(87, 21, 204, 0.82);
   }
 
   #portfolio-wrapper h1{
     width:75%;
-    color:(87, 21, 204, 0.50);
+    font-size:2em;
+    color:rgba(87, 21, 204, 0.50);
   }
 
   #portfolio-wrapper img {
