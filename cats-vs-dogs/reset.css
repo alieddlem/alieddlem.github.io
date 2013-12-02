@@ -245,7 +245,7 @@ article h1 {
      }
   }
 
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:492px) {
     body { }
     header h1 {
     	font-size:5em;
@@ -268,7 +268,7 @@ article h1 {
 }
   }
 
-      @media screen and (max-width:330px) {
+      @media screen and (max-width:390px) {
     body { }
     header h1 {
     	font-size:5em;
