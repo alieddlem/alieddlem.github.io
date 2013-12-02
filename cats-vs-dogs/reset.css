@@ -196,6 +196,7 @@ article h1 {
 
 #second-image {
 	text-align:center;
+	margin-bottom:2%;
 }
 
 #second-image img {
@@ -209,6 +210,7 @@ article h1 {
 
 #first-image {
 	text-align:center;
+	margin-bottom:2%;
 }
 
 @media screen and (max-width:939px) {
@@ -223,4 +225,22 @@ article h1 {
     	font-size:1.5em;
     }
 
+  }
+
+  @media screen and (max-width:939px) {
+    body { }
+    header h1 {
+    	font-size:5em;
+    }
+    header h2 {
+    	font-size:1.5em;
+    }
+    nav {
+    	font-size:1.25em;
+    }
+    article {
+	clear:both;
+	width:95%;
+	margin:2.5%;
+     }
   }
