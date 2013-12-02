@@ -228,3 +228,30 @@ footer a:hover {opacity:.5;}
     float:none;
 }
 }
+
+@media screen and (max-width:400px) {
+    body { }
+    #contact-wrapper {
+    margin-top: 40%;
+    margin-left: 2%;
+    float:none;
+}
+    #contact-wrapper img {
+    width:96%;
+}
+    #blog-description {
+	margin-top: 40%;
+    margin-left: 2%;
+    float:none;
+}
+     #ethics-wrapper {
+	margin-top: 40%;
+    margin-left: 2%;
+    float:none;
+}
+    #up-all-night-wrapper {
+	margin-top: 40%;
+    margin-left: 2%;
+    float:none;
+}
+}
