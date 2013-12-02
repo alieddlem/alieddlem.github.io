@@ -189,6 +189,7 @@ footer a:hover {opacity:.5;}
     #contact-wrapper {
     margin-top: 20%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
     #contact-wrapper img {
@@ -202,13 +203,26 @@ footer a:hover {opacity:.5;}
      #ethics-wrapper {
 	margin-top: 20%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
     #up-all-night-wrapper {
 	margin-top: 20%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
+  #portfolio-wrapper h2{
+    width:96%;
+    font-size:1.5em;
+    color:rgba(87, 21, 204, 0.82);
+  }
+
+  #portfolio-wrapper h1{
+    width:96%;
+    font-size:2em;
+    color:rgba(87, 21, 204, 0.50);
+  }
 }
 
 @media screen and (max-width:550px) {
@@ -219,6 +233,7 @@ footer a:hover {opacity:.5;}
     #contact-wrapper {
     margin-top: 30%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
     #contact-wrapper img {
@@ -227,16 +242,19 @@ footer a:hover {opacity:.5;}
     #blog-description {
 	margin-top: 30%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
      #ethics-wrapper {
 	margin-top: 30%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
     #up-all-night-wrapper {
 	margin-top: 30%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
 }
@@ -249,6 +267,7 @@ footer a:hover {opacity:.5;}
     #contact-wrapper {
     margin-top: 40%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
     #contact-wrapper img {
@@ -256,16 +275,19 @@ footer a:hover {opacity:.5;}
 }
     #blog-description {
 	margin-top: 40%;
+	width:96%;
     margin-left: 2%;
     float:none;
 }
      #ethics-wrapper {
 	margin-top: 40%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
     #up-all-night-wrapper {
 	margin-top: 40%;
+	width:96%;
     margin-left: 2%;
     float:none;
 }
@@ -278,6 +300,7 @@ footer a:hover {opacity:.5;}
   }
     #contact-wrapper {
     margin-top: 50%;
+    width:96%;
     margin-left: 2%;
     float:none;
 }
@@ -287,15 +310,18 @@ footer a:hover {opacity:.5;}
     #blog-description {
 	margin-top: 50%;
     margin-left: 2%;
+    width:96%;
     float:none;
 }
      #ethics-wrapper {
 	margin-top: 50%;
+	width:96%;
     margin-left: 2%;
     float:none;
 }
     #up-all-night-wrapper {
 	margin-top: 50%;
+	width:96%;
     margin-left: 2%;
     float:none;
 }
