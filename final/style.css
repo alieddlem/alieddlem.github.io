@@ -180,7 +180,7 @@ footer a:hover {opacity:.5;}
     #contact-wrapper {
     margin-top: 20%;
     margin-left: 2%;
-    clear:both;
+    float:none;
 }
     #contact-wrapper img {
     width:70%;
@@ -188,16 +188,16 @@ footer a:hover {opacity:.5;}
     #blog-description {
 	margin-top: 20%;
     margin-left: 2%;
-    clear:both;
+    float:none;
 }
      #ethics-wrapper {
 	margin-top: 20%;
     margin-left: 2%;
-    clear:both;
+    float:none;
 }
     #up-all-night-wrapper {
 	margin-top: 20%;
     margin-left: 2%;
-    clear:both;
+    float:none;
 }
 }
