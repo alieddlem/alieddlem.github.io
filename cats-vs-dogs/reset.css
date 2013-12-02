@@ -227,7 +227,7 @@ article h1 {
 
   }
 
-  @media screen and (max-width:939px) {
+  @media screen and (max-width:700px) {
     body { }
     header h1 {
     	font-size:5em;
@@ -243,4 +243,27 @@ article h1 {
 	width:95%;
 	margin:2.5%;
      }
+  }
+
+    @media screen and (max-width:500px) {
+    body { }
+    header h1 {
+    	font-size:5em;
+    }
+    header h2 {
+    	font-size:1.5em;
+    }
+    nav {
+    	font-size:1em;
+    }
+    article {
+	clear:both;
+	width:95%;
+	margin:2.5%;
+     }
+    article h1 {
+	text-align:center;
+	font-weight:bold;
+	font-size:1.5em;
+}
   }
