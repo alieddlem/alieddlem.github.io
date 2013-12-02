@@ -157,6 +157,13 @@ header h2 {
     border-bottom: 4px solid grey;
 }
 
+#vs {
+	display: inline-block;
+	border-top: 1px solid grey;
+    padding-top: 1%;
+    border-bottom: 1px solid grey;
+}
+
 article {
 	float:left;
 	width:45%;
