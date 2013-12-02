@@ -105,7 +105,7 @@ header nav {}
     padding-top: 20px;
 	text-transform:uppercase;
 	margin:0 auto;
-	text-align:center;
+	text-align:left;
 	display:inline-block;
 
 }
@@ -139,8 +139,8 @@ header nav {}
 #page {
 	width:400px;
 	float:left;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 #site-footer {
@@ -195,4 +195,16 @@ li a {
 #sidebar ul {
 	margin-bottom:10px;
 
+}
+
+#page h1 {
+	font-size:2.5em;
+	text-transform:uppercase;
+}
+
+#page h2 {
+	font-size: 1.25em;
+     text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
