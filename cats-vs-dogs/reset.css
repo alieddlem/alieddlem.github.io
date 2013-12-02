@@ -134,8 +134,6 @@ footer {
 }
 
 #content-wrapper img{
-	float:left;
-	width:40%;
 }
 
 header h1 {
@@ -192,23 +190,16 @@ article h1 {
 
 #content-wrapper {
 	margin:2%;
-}
-
-#image-wrapper {
-width:90%;
-margin-left:5%;
-margin-right:5%;
-padding: 2px;
-text-align: center;
-display: inline-block;
-}
-
-#image-wrapper img {
+	display:inline-block;
 	text-align:center;
 }
 
 #second-image {
-	width: 106%;
+	text-align:center;
+}
+
+#first-image {
+	text-align:center;
 }
 
 @media screen and (max-width:939px) {
