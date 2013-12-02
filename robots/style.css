@@ -101,7 +101,8 @@ header nav {}
 	text-align:center;
 }
 #main-menu li{
-	padding:20px;
+	padding-right: 20px;
+    padding-top: 20px;
 	text-transform:uppercase;
 	margin:0 auto;
 	text-align:center;
@@ -132,11 +133,14 @@ header nav {}
 #sidebar {
 	float:right;
 	width:400px;
+	margin-top: 20px;
 }
 
 #page {
 	width:400px;
 	float:left;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #site-footer {
@@ -173,4 +177,13 @@ header nav {}
 p {
 	width:200;
 	float:left;
+}
+
+li a {
+	text-decoration:none;
+}
+
+#sidebar li a {
+	color:#76481b;
+	padding:5px;
 }
