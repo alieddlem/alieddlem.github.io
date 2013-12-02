@@ -200,6 +200,10 @@ margin-left:10%;
 margin-right:10%;
 }
 
+#second-image {
+	width: 42.4%;
+}
+
 @media screen and (max-width:939px) {
     body { }
     header h1 {
