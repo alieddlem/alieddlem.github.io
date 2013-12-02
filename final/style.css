@@ -181,6 +181,9 @@ footer a:hover {opacity:.5;}
 
 @media screen and (max-width:725px) {
     body { }
+    #portfolio-wrapper img {
+  	width:20%;
+  }
     #contact-wrapper {
     margin-top: 20%;
     margin-left: 2%;
@@ -208,6 +211,9 @@ footer a:hover {opacity:.5;}
 
 @media screen and (max-width:550px) {
     body { }
+    #portfolio-wrapper img {
+  	width:25%;
+  }
     #contact-wrapper {
     margin-top: 30%;
     margin-left: 2%;
@@ -235,6 +241,9 @@ footer a:hover {opacity:.5;}
 
 @media screen and (max-width:400px) {
     body { }
+    #portfolio-wrapper img {
+  	width:30%;
+  }
     #contact-wrapper {
     margin-top: 40%;
     margin-left: 2%;
@@ -262,6 +271,9 @@ footer a:hover {opacity:.5;}
 
 @media screen and (max-width:320px) {
     body { }
+    #portfolio-wrapper img {
+  	width:40%;
+  }
     #contact-wrapper {
     margin-top: 50%;
     margin-left: 2%;
