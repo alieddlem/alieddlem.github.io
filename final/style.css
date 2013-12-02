@@ -50,6 +50,7 @@ table {
 /* Add Styles Here */
 body {
 	font-family:Univers;
+	background-color:rgba(231, 225, 211, 0.61);
 	font-size:1em;
 	line-height:1.5em;
 	margin:0 auto;
