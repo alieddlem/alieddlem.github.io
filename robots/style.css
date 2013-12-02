@@ -109,7 +109,7 @@ header nav {}
 	display:inline-block;
 
 }
-#menu{
+.menu{
 	color:white;
 	text-decoration:none;
 }
