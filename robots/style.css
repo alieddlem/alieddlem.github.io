@@ -133,7 +133,8 @@ header nav {}
 #sidebar {
 	float:right;
 	width:400px;
-	margin-top: 20px;
+	margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #page {
@@ -167,6 +168,7 @@ header nav {}
 	background-color:#76481b;
     height:200px;
     clear:both;
+    padding-top: 20px;
 }
 
 #main-menu a{
@@ -190,10 +192,12 @@ li a {
 
 #sidebar h1 {
 	font-size:1.5em;
+	text-transform:uppercase;
 }
 
 #sidebar ul {
-	margin-bottom:10px;
+	margin-bottom: 15px;
+
 
 }
 
@@ -208,3 +212,9 @@ li a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+#top-nav a{
+	text-decoration:none;
+	color:#76481b;
+}
+
