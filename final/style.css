@@ -160,6 +160,11 @@ h1 {
   }
 
 
+  #portfolio-wrapper p{
+    width:75%;
+  }
+
+
 $('#slider').nivoSlider({
     effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
     slices: 15,                     // For slice animations
