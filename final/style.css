@@ -66,9 +66,18 @@ li a{
 #nav-wrapper {
 list-style:none;
 text-decoration:none;
-padding-left:2%;
 font-size:2em;
 color:rgba(87, 21, 204,);
+float:left;
+width:100%;
+display:inline-block;
+}
+
+#nav-wrapper ul{
+text-align:center;
+}
+
+#nav-wrapper li{
 float:left;
 width:50%;
 }
