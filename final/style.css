@@ -164,6 +164,8 @@ footer a:hover {opacity:.5;}
     color:rgba(87, 21, 204, 0.82);
     font-style: italic;
     text-transform: uppercase;
+    padding-top:1%;
+    padding-bottom:1%;
   }
 
   #portfolio-wrapper h1{
