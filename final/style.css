@@ -67,7 +67,6 @@ li a{
 list-style:none;
 text-decoration:none;
 padding-left:2%;
-position:relative;
 font-size:2em;
 color:rgba(87, 21, 204,);
 }
@@ -118,24 +117,6 @@ footer a:hover {opacity:.5;}
 	width:75%;
 	margin-top:4%;
 	margin-right:2%;
-}
-
-#home {
-	position:absolute;
-	top:10px;
-}
-
-#portfolio {
-	position:absolute;
-	top:30px;
-}
-#about {
-	position:absolute;
-	top:50px;
-}
-#blog {
-	position:absolute;
-	top:70px;
 }
 
   #contact-wrapper p {
@@ -196,11 +177,6 @@ footer a:hover {opacity:.5;}
     #contact-wrapper img {
     width:70%;
 }
-    #blog-description {
-	margin-top: 20%;
-    margin-left: 2%;
-    float:none;
-}
      #ethics-wrapper {
 	margin-top: 20%;
     margin-left: 2%;
@@ -240,12 +216,7 @@ footer a:hover {opacity:.5;}
     #contact-wrapper img {
     width:80%;
 }
-    #blog-description {
-	margin-top: 30%;
-    margin-left: 2%;
-    width:96%;
-    float:none;
-}
+
      #ethics-wrapper {
 	margin-top: 30%;
     margin-left: 2%;
@@ -273,12 +244,6 @@ footer a:hover {opacity:.5;}
 }
     #contact-wrapper img {
     width:96%;
-}
-    #blog-description {
-	margin-top: 40%;
-	width:96%;
-    margin-left: 2%;
-    float:none;
 }
      #ethics-wrapper {
 	margin-top: 40%;
@@ -308,12 +273,7 @@ footer a:hover {opacity:.5;}
     #contact-wrapper img {
     width:96%;
 }
-    #blog-description {
-	margin-top: 50%;
-    margin-left: 2%;
-    width:96%;
-    float:none;
-}
+
      #ethics-wrapper {
 	margin-top: 50%;
 	width:96%;
