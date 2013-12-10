@@ -77,9 +77,9 @@ display:inline-block;
 text-align:center;
 }
 
-#nav-wrapper li{
+#nav-wrapper li a{
 float:left;
-width:50%;
+width:100%;
 }
 
 header {
