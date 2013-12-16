@@ -66,9 +66,9 @@ li a{
 #nav-wrapper {
 list-style:none;
 text-decoration:none;
-font-size:2em;
+font-size:1.5em;
 color:rgba(87, 21, 204,);
-float:left;
+text-align:center;
 width:100%;
 display:inline-block;
 }
