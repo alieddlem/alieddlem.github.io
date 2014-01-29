@@ -72,3 +72,20 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 /* END RESET */
+
+body {
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	background-color:pink;
+}
+
+p {
+	font-family: Curlz MT;
+    font-size: 4em;
+    color: rgb(255, 0, 194);
+}
+
+img {
+	margin-top:3%;
+}
