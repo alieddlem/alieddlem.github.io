@@ -1,0 +1,203 @@
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/* END RESET */
+
+body {
+	position:relative;
+}
+
+.head {
+	display: block;
+background-color: rgb(192, 191, 191);
+position: absolute;
+width: 150px;
+height: 250px;
+border-radius: 55px 55px 0 0;
+left: 400px;
+top: 100px;
+border: 2px solid black;
+}
+
+.antennae {
+	position: absolute;
+width: 10px;
+height: 75px;
+display: block;
+top: -79px;
+left: 70px;
+background-color: rgb(192, 191, 191);
+border: 2px solid black;
+}
+
+p {
+	text-align: center;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ .sign {
+ 	color: red;
+font-family: sans-serif;
+display: block;
+background-color: rgb(228, 228, 176);
+width: 300px;
+border: 10px solid brown;
+height: 60px;
+position: absolute;
+left: 315px;
+z-index: 100;
+ }
+
+ .eyes {
+display: block;
+position: absolute;
+background-color: rgb(206, 202, 202);
+width: 190px;
+height: 70px;
+top: 50px;
+left: -20px;
+border-radius: 20px 20px 40px 40px;
+border: 1px solid black;
+ }
+
+ .eyes-shadow {
+ 	display: block;
+    background-color: black;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    top: 4px;
+    left: 4px;
+    border-radius: 15px 15px 20px 20px;
+ }
+
+ .yellow-eyes {
+ 	display: block;
+position: absolute;
+background-color: rgb(228, 228, 176);
+width: 50px;
+height: 30px;
+top: 8px;
+left: 15px;
+border-radius: 40px 40px 30px 30px;
+ }
+
+  .yellow-eyes:after {
+  	content:"";
+ 	display: block;
+position: absolute;
+background-color: rgb(228, 228, 176);
+width: 50px;
+height: 30px;
+top: 0px;
+left: 80px;
+border-radius: 40px 40px 30px 30px;
+ }
+
+ .pupils {
+ 	display: block;
+background-color: black;
+position: absolute;
+width: 7px;
+height: 5px;
+top: 10px;
+left: 2px;
+border-radius: 50%;
+ }
+
+ .pupils:after {
+ 	content: "";
+display: block;
+background-color: black;
+position: absolute;
+width: 7px;
+height: 5px;
+top: 0px;
+left: 80px;
+border-radius: 50%;
+z-index: 150;
+ }
+
+ .mouth {
+ 	display: block;
+position: absolute;
+background-color: rgb(228, 228, 176);
+width: 125px;
+height: 50px;
+top: 140px;
+left: 10px;
+border: 2px solid black;
+border-radius: 30px 30px 20px 20px;
+ }
