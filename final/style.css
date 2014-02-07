@@ -50,11 +50,14 @@ table {
 /* Add Styles Here */
 body {
 	font-family:Univers;
-	background-color:rgba(231, 225, 211, 0.61);
 	font-size:1em;
 	line-height:1.5em;
 	margin:0 auto;
 	position:relative;
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
+  background: -o-linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
+  background: -moz-linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
+  background: linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255);
 }
 
 li a{
@@ -88,10 +91,9 @@ width:100%;
 }
 
 header {
-	text-align:left;
+	text-align:center;
 	padding-left:2%;
 	padding-top:4%;
-	background-color: rgba(250, 142, 0, 0.47);
 	padding-bottom: 1%;
 }
 
