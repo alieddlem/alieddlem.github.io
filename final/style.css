@@ -60,7 +60,11 @@ body {
   background: linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255);
 }
 
-
+header a {
+  display: block;
+  text-align: center;
+  list-style:none;
+}
 
 
 nav a:hover {opacity:.5;}
