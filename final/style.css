@@ -50,22 +50,54 @@ table {
 /* Add Styles Here */
 body {
 	font-family:Univers;
+	background-color:rgba(231, 225, 211, 0.61);
 	font-size:1em;
 	line-height:1.5em;
 	margin:0 auto;
 	position:relative;
   background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
-  background: -o-linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
-  background: -moz-linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
-  background: linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255);
+background: -o-linear-gradient(red, blue);
+background: -moz-linear-gradient(red, blue);
+background: linear-gradient(rgb(255, 255, 255), rgb(122, 0, 255));
 }
 
-header a {
-  display: block;
-  text-align: center;
-  list-style:none;
+li a{
+	text-decoration:none;
+	color:rgba(87, 21, 204, 0.82);
+	
 }
 
+#nav-wrapper {
+list-style:none;
+text-decoration:none;
+font-size:1.5em;
+color:rgba(87, 21, 204,);
+text-align:center;
+width:100%;
+display:inline-block;
+}
+
+#nav-wrapper ul{
+text-align:center;
+}
+
+#nav-wrapper li a{
+float:left;
+width:100%;
+}
+
+#nav-wrapper li {
+float:left;
+width:100%;
+}
+
+header {
+	text-align:left;
+	padding-left:2%;
+	padding-top:4%;
+	background-color: rgba(250, 142, 0, 0.47);
+	padding-bottom: 1%;
+}
 
 nav a:hover {opacity:.5;}
 img a:hover {opacity:.5;}
@@ -75,7 +107,177 @@ footer a:hover {opacity:.5;}
 	color:orange;
 }
 
+#ethics-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+}
 
+#up-all-night-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+}
+
+#contact-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+}
+
+#contact-wrapper h1 {
+	font-size:1.5em;
+	font-style: italic;
+    padding-bottom: 2%;
+    color: rgba(87, 21, 204, 0.82);
+}
+
+#intro-wrapper {
+	float:right;
+	width:75%;
+	margin-top:4%;
+	margin-right:2%;
+}
+
+  #contact-wrapper p {
+  	width:100%;
+  }
+
+  #contact-wrapper img {
+    width:40%;
+
+  }
+
+
+  #portfolio-wrapper p{
+    width:75%;
+  }
+
+  #portfolio-wrapper h2{
+    width:75%;
+    font-size:1.5em;
+    color:rgba(87, 21, 204, 0.82);
+    font-style: italic;
+    text-transform: uppercase;
+    padding-top:1%;
+    padding-bottom:1%;
+  }
+
+  #portfolio-wrapper h1{
+    width:75%;
+    font-size:2em;
+    color:rgba(87, 21, 204, 0.50);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+  }
+
+  #portfolio-wrapper img {
+  	width:12%;
+  }
+
+ @media screen and (max-width:900px) {
+    body { }
+    #contact-wrapper img {
+    width:60%;
+}
+}
+
+@media screen and (max-width:725px) {
+    body { }
+    #portfolio-wrapper img {
+  	width:20%;
+  }
+    #contact-wrapper {
+    margin-top: 20%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+    #contact-wrapper img {
+    width:70%;
+}
+     #ethics-wrapper {
+	margin-top: 20%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+    #up-all-night-wrapper {
+	margin-top: 20%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+  #portfolio-wrapper h2{
+    width:96%;
+    font-size:1.5em;
+    color:rgba(87, 21, 204, 0.82);
+  }
+
+  #portfolio-wrapper h1{
+    width:96%;
+    font-size:2em;
+    color:rgba(87, 21, 204, 0.50);
+  }
+}
+
+@media screen and (max-width:550px) {
+    body { }
+    #portfolio-wrapper img {
+  	width:25%;
+  }
+    #contact-wrapper {
+    margin-top: 30%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+    #contact-wrapper img {
+    width:80%;
+}
+
+     #ethics-wrapper {
+	margin-top: 30%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+    #up-all-night-wrapper {
+	margin-top: 30%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+}
+
+@media screen and (max-width:400px) {
+    body { }
+    #portfolio-wrapper img {
+  	width:30%;
+  }
+    #contact-wrapper {
+    margin-top: 40%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+    #contact-wrapper img {
+    width:96%;
+}
+     #ethics-wrapper {
+	margin-top: 40%;
+    margin-left: 2%;
+    width:96%;
+    float:none;
+}
+    #up-all-night-wrapper {
+	margin-top: 40%;
+	width:96%;
+    margin-left: 2%;
+    float:none;
+}
+}
 
 @media screen and (max-width:320px) {
     body { }
