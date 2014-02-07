@@ -99,24 +99,25 @@ header {
 	padding-bottom: 1%;
 }
 
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 nav a:hover {opacity:.5;}
 img a:hover {opacity:.5;}
 footer a:hover {opacity:.5;}
 
 .current a{
-	color:orange;
+	color:black;
 }
 
 #ethics-wrapper {
-	float:right;
-	width:75%;
-	margin-top:4%;
+	
 }
 
 #up-all-night-wrapper {
-	float:right;
-	width:75%;
-	margin-top:4%;
+
 }
 
 #contact-wrapper {
