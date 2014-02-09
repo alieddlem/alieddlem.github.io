@@ -76,6 +76,8 @@ html[xmlns] .clearfix { display: block; }
 body {
 	position:relative;
 	background-color:rgb(233, 0, 121);
+	font-family:Univers;
+	color:black;
 }
 
 .clock {
@@ -134,11 +136,5 @@ left: 190px;
 }
 
 .i {
-	position: absolute;
-display: block;
-background-color: black;
-width: 5px;
-height: 30px;
-top: 50px;
-left: 290px;
+
 }
