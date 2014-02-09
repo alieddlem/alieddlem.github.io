@@ -159,3 +159,13 @@ top: 310px;
 left: 75px;
 border-radius: 10px 10px 10px 10px;
 }
+
+.mug:hover {
+	position: absolute;
+    display: block;
+    background-color: transparent;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 400px;
+};
