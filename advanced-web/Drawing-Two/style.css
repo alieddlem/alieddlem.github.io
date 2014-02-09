@@ -100,7 +100,7 @@ position: relative;
 height: 400px;
 width: 400px;
 border-radius: 50%;
-top: 80px;
+top: 90px;
 left: 100px;
 
 }
@@ -152,7 +152,7 @@ display: block;
 
 .iii {
 	position: absolute;
-left: 350px;
+left: 355px;
 top: 185px;
 display: block;
 }
@@ -160,21 +160,21 @@ display: block;
 .iv {
 	position: absolute;
 left: 325px;
-top: 265px;
+top: 275px;
 display: block;
 }
 
 .v {
 	position: absolute;
 left: 265px;
-top: 330px;
+top: 340px;
 display: block;
 }
 
 .vi {
 position: absolute;
 left: 175px;
-top: 350px;
+top: 360px;
 display: block;
 }
 
@@ -187,8 +187,8 @@ display: block;
 
 .viii {
 	position: absolute;
-left: 25px;
-top: 255px;
+left: 30px;
+top: 260px;
 display: block;
 }
 
@@ -201,7 +201,7 @@ display: block;
 
 .x {
 	position: absolute;
-left: 30px;
+left: 35px;
 top: 105px;
 display: block;
 }
@@ -209,7 +209,7 @@ display: block;
 .xi {
 	position: absolute;
 left: 90px;
-top: 40px;
+top: 45px;
 display: block;
 }
 
