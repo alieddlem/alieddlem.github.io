@@ -145,8 +145,8 @@ font-size: 3em;
 
 .ii {
 position: absolute;
-left: 190px;
-top: 6px;
+left: 330px;
+top: 100px;
 display: block;
 font-size: 3em;	
 }
@@ -161,16 +161,16 @@ font-size: 3em;
 
 .iv {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 325px;
+top: 265px;
 display: block;
 font-size: 3em;
 }
 
 .v {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 265px;
+top: 330px;
 display: block;
 font-size: 3em;
 }
@@ -185,16 +185,16 @@ font-size: 3em;
 
 .vii {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 85px;
+top: 325px;
 display: block;
 font-size: 3em;
 }
 
 .viii {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 25px;
+top: 255px;
 display: block;
 font-size: 3em;
 }
@@ -209,24 +209,24 @@ font-size: 3em;
 
 .x {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 30px;
+top: 105px;
 display: block;
 font-size: 3em;
 }
 
 .xi {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 90px;
+top: 40px;
 display: block;
 font-size: 3em;
 }
 
 .xii {
 	position: absolute;
-left: 190px;
-top: 6px;
+left: 165px;
+top: 10px;
 display: block;
 font-size: 3em;
 }
