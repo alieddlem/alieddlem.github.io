@@ -219,3 +219,10 @@ left: 175px;
 top: 10px;
 display: block;
 }
+
+.minute-hand:hover
+{ 
+position:absolute;
+top:20px;
+left:200px;
+}
