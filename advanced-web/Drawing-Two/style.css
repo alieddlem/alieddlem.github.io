@@ -92,6 +92,7 @@ left: 300px;
 border-radius: 50% 50% 50% 50%;
 margin-bottom: 50px;
 color:black;
+z-index:0;
 }
 
 .inner-circle {
@@ -103,6 +104,7 @@ width: 400px;
 border-radius: 50%;
 top: 90px;
 left: 100px;
+z-index:5;
 
 }
 
@@ -113,16 +115,20 @@ width: 130px;
 position: relative;
 top: 200px;
 left: 70px;
+z-index:10;
+background-color:black;
 }
 
 .center {
-	display: block;
+display: block;
 position: relative;
 height: 25px;
 width: 25px;
 top: 180px;
 left: 190px;
 border-radius: 50%;
+z-index:10;
+background-color:black;
 }
 
 .hour-hand {
@@ -132,6 +138,8 @@ width: 10px;
 position: relative;
 top: 75px;
 left: 198px;
+z-index:10;
+background-color:black;
 }
 
 .i {
@@ -139,6 +147,7 @@ position: absolute;
 left: 285px;
 top: 40px;
 display: block;
+z-index:10;
 }
 
 .ii {
@@ -146,6 +155,7 @@ position: absolute;
 left: 335px;
 top: 100px;
 display: block;
+z-index:10;
 }
 
 .iii {
@@ -153,6 +163,7 @@ display: block;
 left: 355px;
 top: 185px;
 display: block;
+z-index:10;
 }
 
 .iv {
@@ -160,6 +171,7 @@ display: block;
 left: 325px;
 top: 275px;
 display: block;
+z-index:10;
 }
 
 .v {
@@ -167,6 +179,7 @@ display: block;
 left: 265px;
 top: 340px;
 display: block;
+z-index:10;
 }
 
 .vi {
@@ -174,6 +187,7 @@ position: absolute;
 left: 175px;
 top: 360px;
 display: block;
+z-index:10;
 }
 
 .vii {
@@ -181,6 +195,7 @@ display: block;
 left: 85px;
 top: 325px;
 display: block;
+z-index:10;
 }
 
 .viii {
@@ -188,6 +203,7 @@ display: block;
 left: 30px;
 top: 260px;
 display: block;
+z-index:10;
 }
 
 .ix {
@@ -195,6 +211,7 @@ display: block;
 left: 10px;
 top: 187px;
 display: block;
+z-index:10;
 }
 
 .x {
@@ -202,6 +219,7 @@ display: block;
 left: 35px;
 top: 105px;
 display: block;
+z-index:10;
 }
 
 .xi {
@@ -209,6 +227,7 @@ display: block;
 left: 90px;
 top: 45px;
 display: block;
+z-index:10;
 }
 
 .xii {
@@ -216,9 +235,13 @@ display: block;
 left: 175px;
 top: 10px;
 display: block;
+z-index:10;
 }
 
 .clock:hover
 { 
-background-color:blue;
+background-color:white;
+border-radius:0;
+color:white;
+z-index:10;
 }
