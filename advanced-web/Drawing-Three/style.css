@@ -73,34 +73,113 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
+body {
+	position:relative;
+	background-color:black;
+}
+
 .lightbulb {
 	display:block;
 	position:absolute;
 	background-color:transparent;
 	height:400px;
 	width:300px;
+top: 50px;
+left: 500px;
 }
 
 .bulb-top {
-	display:block;
-	position:absolute;
-	background-color:white;
-	height:200px;
-	width:300px;
+display: block;
+position: absolute;
+background-color: white;
+height: 250px;
+width: 250px;
+border-radius: 50%;
+left: 1px;
+top:10px;
 }
 
 .bulb-bottom {
+display: block;
+position: absolute;
+background-color: white;
+height: 100px;
+width: 100px;
+top: 250px;
+left: 75px;
+}
+
+.bulb-middle {
 	display:block;
 	position:absolute;
 	background-color:white;
-	height:100px;
-	width:100px;
+height: 0;
+width: 0;
+border-top-width: 10px;
+border-left-width: 10px;
+border-right-width: 10px;
+border-bottom-width: 10px;
+background: transparent;
+border-top-color: white;
+border-left-color: transparent;
+border-right-color: transparent;
+border-bottom-color: transparent;
+top: 200px;
+left: 73px;
 }
 
 .metal1 {
-	display:block;
-	position:absolute;
-	background-color:white;
-	height:20px;
-	width:100px;
+display: block;
+position: absolute;
+background-color: white;
+height: 20px;
+width: 100px;
+top: 340px;
+left: 75px;
+border-radius: 70% 10% 70% 50%;
+}
+
+.metal2 {
+display: block;
+position: absolute;
+background-color: white;
+height: 20px;
+width: 100px;
+top: 353px;
+left: 75px;
+border-radius: 70% 50% 70% 50%;
+}
+
+
+.metal3 {
+display: block;
+position: absolute;
+background-color: white;
+height: 20px;
+width: 100px;
+top: 364px;
+left: 75px;
+border-radius: 70% 50% 70% 50%;
+}
+
+.metal4 {
+display: block;
+position: absolute;
+background-color: white;
+height: 20px;
+width: 100px;
+top: 375px;
+left: 75px;
+border-radius: 70% 50% 70% 20%;
+}
+
+.black-bottom {
+display: block;
+position: absolute;
+background-color: white;
+height: 15px;
+width: 70px;
+top: 390px;
+left: 90px;
+border-radius: 5px 5px 120px 120px;
 }
