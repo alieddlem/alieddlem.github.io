@@ -86,6 +86,10 @@ body {
 	width:300px;
 top: 50px;
 left: 500px;
+ -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
 }
 
 .bulb-top {
