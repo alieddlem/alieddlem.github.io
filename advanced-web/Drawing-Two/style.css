@@ -245,3 +245,24 @@ border-radius:0;
 color:white;
 z-index:10;
 }
+
+.clock:hover .minute-hand
+{ 
+background-color:white;
+color:white;
+z-index:10;
+}
+
+.clock:hover .hour-hand
+{ 
+background-color:white;
+color:white;
+z-index:10;
+}
+
+.clock:hover .center
+{ 
+background-color:white;
+color:white;
+z-index:10;
+}
