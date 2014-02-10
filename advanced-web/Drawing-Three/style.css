@@ -109,24 +109,30 @@ top: 250px;
 left: 75px;
 }
 
-.bulb-middle {
-	display:block;
-	position:absolute;
-	background-color:white;
-height: 0;
+.bulb-middle-right {
 width: 0;
-border-top-width: 10px;
-border-left-width: 10px;
-border-right-width: 10px;
-border-bottom-width: 10px;
-background: transparent;
-border-top-color: white;
-border-left-color: transparent;
-border-right-color: transparent;
-border-bottom-color: transparent;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid white;
+z-index: 10;
+position: absolute;
 top: 200px;
-left: 73px;
+left: 120px;
 }
+
+.bulb-middle-left {
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid white;
+z-index: 10;
+position: absolute;
+top: 200px;
+left: 120px;
+}
+
 
 .metal1 {
 display: block;
