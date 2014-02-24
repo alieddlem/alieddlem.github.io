@@ -83,7 +83,7 @@ html[xmlns] .clearfix { display: block; }
     25% { 
        
       -webkit-transform: translate(300px,100px);
-      -webkit-transform: rotate(0deg);
+      
 
       
 
@@ -91,18 +91,32 @@ html[xmlns] .clearfix { display: block; }
     50%  { 
        
       -webkit-transform: translate(400px,100px);
-      -webkit-transform: rotate(30deg);
+      
     }
      75%  { 
        
       -webkit-transform: translate(400px,0);
-      -webkit-transform: rotate(0deg);
+      
       
     }
     100% {  
        
       -webkit-transform: translate(0,0);
-      -webkit-transform: rotate(30deg);
+      
+    }
+}
+@-webkit-keyframes spin {
+   0% { 
+      -webkit-transform: rotate(0deg);
+
+    }
+      
+
+
+    100% {  
+       -webkit-transform: rotate(360deg);
+      
+      
     }
 }
 @-webkit-keyframes rock {
@@ -190,6 +204,13 @@ z-index: 10;
 position: absolute;
 top: 200px;
 left: 30px;
+}
+
+.bulb-top:hover {
+  background: url(http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/91/9f/919f70931bc542d8becb9473ae517556.jpeg?itok=nbzg2tqd);
+  overflow:hidden;
+  z-index:15;
+  -webkit-animation: spin 2s linear .2s infinite;
 }
 
 
