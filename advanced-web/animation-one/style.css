@@ -74,6 +74,56 @@ html[xmlns] .clearfix { display: block; }
 /* END RESET */
 
 
+
+@-webkit-keyframes move2 {
+   0% { 
+      -webkit-transform: rotate(0deg);
+      transform-origin:0% 0%;
+    }
+     
+    100% {  
+       
+      -webkit-transform: rotate(360deg);
+      transform-origin:0% 0%; 
+    }
+}
+
+@-webkit-keyframes bounce {
+   0% { 
+      -webkit-transform: translate(0,0);
+    }
+     
+    25% { 
+       
+      -webkit-transform: translate(100px,0);
+      
+
+    }
+    50%  { 
+       
+      -webkit-transform: translate(0,0);
+    }
+     75%  { 
+       
+      -webkit-transform: translate(100px,0);
+      
+    }
+    100% {  
+       
+      -webkit-transform: translate(0,0); 
+    }
+}
+
+
+@-webkit-keyframes tick {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+html, body { width: 500px; height:400px; }
+
+
 body {
 	position:relative;
 	background-color:rgb(233, 0, 121);
@@ -89,17 +139,13 @@ width: 600px;
 background-color: black;
 position: absolute;
 top: 50px;
-left: 300px;
+left: 50px;
 border-radius: 50% 50% 50% 50%;
 margin-bottom: 50px;
 color:black;
-			}
-/*-webkit-animation: bounce2 2s linear 2s 12 alternate;
+-webkit-animation: bounce 2s linear .2s infinite;
 }
 
-OR
-
- -webkit-animation: bounce2 2s linear 2s infinite; */
 
 .inner-circle {
 display: block;
@@ -119,10 +165,11 @@ display: block;
 height: 10px;
 width: 130px;
 position: relative;
-top: 200px;
-left: 70px;
+top: 190px;
+left: 200px;
 z-index:10;
 background-color:black;
+ -webkit-animation: tick 5s infinite linear;
 }
 
 .center {
@@ -146,6 +193,12 @@ top: 75px;
 left: 198px;
 z-index:10;
 background-color:black;
+ -webkit-animation: tock 60s infinite linear;
+}
+
+.minute-hand, .hour-hand {
+    transform-origin: 2px 100%;
+    -webkit-transform-origin: 2px 100%;
 }
 
 .i {
@@ -247,10 +300,16 @@ z-index:10;
 .clock:hover
 { 
 background-color:white;
-border-radius:0;
 color:white;
 z-index:10;
--webkit-animation: move 2s linear 2s infinite;
+/*-webkit-animation: move 2s linear .2s infinite;*/
+}
+
+.clock:hover .innercircle
+{ 
+background-color:white;
+color:white;
+z-index:10;
 }
 
 .clock:hover .minute-hand
