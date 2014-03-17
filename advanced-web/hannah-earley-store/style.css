@@ -91,6 +91,10 @@ p {
 	font-size:1em;
 }
 
+footer p {
+	margin-top:5%;
+}
+
 nav {
 	padding-left:10%;
 }
