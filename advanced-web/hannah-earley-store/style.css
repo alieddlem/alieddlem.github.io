@@ -80,6 +80,10 @@ html[xmlns] .clearfix { display: block; }
 	
 }
 
+.prints:hover {
+	opacity:.7;
+}
+
 h1 {
 	color:white;
 	font-size:2em;
