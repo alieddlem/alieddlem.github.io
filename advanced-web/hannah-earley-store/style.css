@@ -80,16 +80,19 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-.prints img {
+.prints {
 	float:left;
 	width:15%;
+	height:60%;
 	overflow:hidden;
 
 	
 }
 
-.prints:hover {
+.current:hover {
 	opacity:.7;
+	overflow:visible;
+	z-index:10;
 }
 
 h1 {
