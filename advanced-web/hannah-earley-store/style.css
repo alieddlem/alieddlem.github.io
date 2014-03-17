@@ -72,11 +72,19 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 /* END RESET */
+.detail{
+	width: 80%;
+    margin-left: 10%;
+
+}
+
 
 
 .prints img {
 	float:left;
 	width:15%;
+	overflow:hidden;
+
 	
 }
 
