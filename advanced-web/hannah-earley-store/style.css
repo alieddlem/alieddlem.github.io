@@ -74,7 +74,7 @@ html[xmlns] .clearfix { display: block; }
 /* END RESET */
 
 
-li {
+.prints img {
 	float:left;
 	width:15%;
 	
@@ -93,7 +93,7 @@ h1 {
 p {
 	color:white;
 	font-size:1em;
-	margin-top:10%;
+	margin-top:1%;
 	margin-left:30%;
 }
 
@@ -108,4 +108,8 @@ body {
 footer {
 	clear:both;
 	margin-left:10%;
+}
+
+.detail img{
+	width:80%;
 }
