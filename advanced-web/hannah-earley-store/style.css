@@ -82,17 +82,19 @@ li {
 
 h1 {
 	color:white;
-	font-size:3em;
+	font-size:2em;
+	position:fixed;
+	top:50%;
+	left:-12%;
+	-webkit-transform: rotate(-90deg);
 
 }
 
 p {
 	color:white;
 	font-size:1em;
-}
-
-footer p {
-	margin-top:5%;
+	margin-top:10%;
+	margin-left:30%;
 }
 
 nav {
@@ -105,4 +107,5 @@ body {
 
 footer {
 	clear:both;
+	margin-left:10%;
 }
