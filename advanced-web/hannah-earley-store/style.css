@@ -76,19 +76,21 @@ html[xmlns] .clearfix { display: block; }
 
 
 .prints {
-	float:left;
-	width:15%;
+	width:150px;
 	height:50%;
 	overflow:hidden;
-	text-align:center;	
+	text-align:center;
 }
 
+.current {
+	display:table-cell;
+}
 
 #feed {
 	margin-left:3%;
 }
 .prints:hover {
-	width:35%;
+	width:auto;
 }
 
 
@@ -172,6 +174,7 @@ footer p {
 
 nav {
 	padding-top:3%;
+	display:table;
 }
 
 body {
@@ -191,8 +194,7 @@ footer {
 }
 
 nav ul {
-	float:left;
-	width:100%;
+	display:table-row;
 
 }
 
