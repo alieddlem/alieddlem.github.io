@@ -4,7 +4,11 @@
   <meta charset="utf-8" />
   <title>Hannah Earley Store</title>
   <link href="style.css" rel="stylesheet" media="all" /> <!-- Optional Site Styles -->
-  <script src="site.js"></script> <!-- Optional Site Javascript -->
+  <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+  <script src='prints.js'></script>
+      <script src='application.js'></script>
+  <script src="site.js"></script> 
+  <!-- Optional Site Javascript -->
  <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
 </head>
@@ -15,103 +19,134 @@
 	</header>
 	<nav>
 	<ul id="feed">
-   <li class="current">
+   <li class="current" data-product-id='print-1'>
    		<div class="prints">
           <img class="print-img" alt="Image-1" src="cropped-images/1ds.gif"/>
    		</div>
    	</li>
-   <li class="current">
+   <li class="current" data-product-id='print-2'>
    		<div class="prints">
    			<img class="print-img" alt="Image-2" src="cropped-images/3ds.gif"/>
    		</div>
    	</li>
-   <li class="current">
+   <li class="current" data-product-id='print-3'>
    		<div class="prints">
    			<img class="print-img" alt="Image-3" src="cropped-images/4ds.gif"/>
    		</div>
    	</li>
-   <li class="current">
+   <li class="current" data-product-id='print-4'>
    		<div class="prints">
    			<img class="print-img" alt="Image-4" src="cropped-images/5ds.gif"/>
    		</div>
    	</li>
-   <li class="current">
+   <li class="current" data-product-id='print-5'>
    		<div class="prints">
    			<img class="print-img" alt="Image-5" src="cropped-images/6ds.gif"/>
    		</div>
    	</li>
-   <li class="current">
+   <li class="current" data-product-id='print-6'>
       <div class="prints">
         <img class="print-img" alt="Image-6" src="cropped-images/7ds.gif"/>
       </div>
     </li>
-   <li class="current">
+   <li class="current" data-product-id='print-7'>
    		<div class="prints">
    			<img class="print-img" alt="Image-7" src="cropped-images/8ds.gif"/>
    		</div>
    </li>
-      <li class="current">
+      <li class="current" data-product-id='print-8'>
       <div class="prints">
         <img class="print-img" alt="Image-8" src="cropped-images/10ds.gif"/>
       </div>
    </li>
-      <li class="current">
+      <li class="current" data-product-id='print-9'>
       <div class="prints">
         <img class="print-img" alt="Image-9" src="cropped-images/11ds.gif"/>
       </div>
    </li>
       </li>
-    <li class="current">
+    <li class="current" data-product-id='print-10'>
       <div class="prints">
         <img class="print-img" alt="Image-11" src="cropped-images/12ds.gif"/>
       </div>
    </li>
-    <li class="current">
+    <li class="current" data-product-id='print-11'>
       <div class="prints">
         <img class="print-img" alt="Image-12" src="cropped-images/13ds.gif"/>
       </div>
    </li>
-    <li class="current">
+    <li class="current" data-product-id='print-12'>
       <div class="prints">
         <img class="print-img" alt="Image-13" src="cropped-images/19ds.gif"/>
       </div>
    </li>
-   <li class="current">
+   <li class="current" data-product-id='print-13'>
       <div class="prints">
         <img class="print-img" alt="Image-15" src="cropped-images/21ds.gif"/>
       </div>
    </li>
-   <li class="current">
+   <li class="current" data-product-id='print-14'>
       <div class="prints">
         <img class="print-img" alt="Image-16" src="cropped-images/22ds.gif"/>
       </div>
    </li>
-   <li class="current">
+   <li class="current" data-product-id='print-15'>
       <div class="prints">
         <img class="print-img" alt="Image-17" src="cropped-images/17.gif"/>
       </div>
    </li>
-   <li class="current">
+   <li class="current" data-product-id='print-16'>
       <div class="prints">
         <img class="print-img" alt="Image-18" src="cropped-images/18.gif"/>
       </div>
    </li>
-   <li class="current">
+   <li class="current" data-product-id='print-17'>
       <div class="prints">
         <img class="print-img" alt="Image-19" src="cropped-images/14ds.gif"/>
       </div>
    </li>
-   <li class="current">
+   <li class="current" data-product-id='print-18'>
       <div class="prints">
         <img class="print-img" alt="Image-20" src="cropped-images/15ds.gif"/>
       </div>
-      <li class="current">
+      <li class="current" data-product-id='print-19'>
       <div class="prints">
         <img class="print-img" alt="Image-21" src="cropped-images/16ds.gif"/>
       </div>
    </li>
   </ul>
 </nav>
+ <div class='clear'></div>
+
+    <div class='overlay'></div>
+    <div class='details'>
+      <h2 id='detail-title'>My Product Title</h2>
+      <img id='detail-image' src='cropped-images/3ds.gif' alt='peapod'/>
+      <p id='detail-description'>
+        Curabitur urna tellus, aliquam vitae, ultrices eget, vehicula nec, diam.
+          blandit venenatis, arcu dolor molestie dolor, vitae congue orci risus a.
+      </p>
+      <div class='clear'></div>
+      <div id='detail-price'>
+        $24.94
+      </div>
+      <div id='detail-options'>
+        Quantity: 
+        <select id='detail-quantity'>
+          <option value='1'>1</option>
+          <option value='2'>2</option>
+          <option value='3'>3</option>
+        </select>
+        Size: 
+        <select id='detail-size'>
+          <option value='1'>5x7</option>
+          <option value='2'>8.5x11</option>
+          <option value='3'>11x17</option>
+        </select>
+
+        <button id='add-to-cart'>Add To Cart</button>
+      </div>
+    </div>
 <footer> <img id="about"alt="about" src="cropped-images/about.gif"/>
 <p> Copyright 2014 Hannah Mae Earley, Massachusetts College of Art and Design </p></footer>
 </body>
