@@ -17,14 +17,6 @@ $(".overlay").hide();
 $(".details").hide();
 }
 
-var Cart = { "frog": 4, "bird" : 1, "cat": 2}
-
-function subtotal(items, quantity){
-	return prices[items] * quantity
-
-
-}
-
 function updateCart(){
 for(var key in Cart) {
       var quantity = Cart[key];
@@ -32,7 +24,7 @@ for(var key in Cart) {
       total += itemPrice;
     }
 }
-function addtoCart(){
+function addItem(){
 
 $("#cart").text("test");
 }
