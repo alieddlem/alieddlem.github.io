@@ -1,6 +1,6 @@
 // Write our base functions
 function showProduct(name){
-var prints = Prints[name]
+var prints = Prints[name];
 
 $(".overlay").show();
 $(".details").show();
@@ -8,6 +8,13 @@ $("#detail-price").text("$" + prints.price);
 $("#detail-title").text(prints.title);
 $("#detail-image").attr("src", prints.image);
 $("#detail-description").text(prints.description);
+$("#add-to-cart").click(function (){
+	var quantity = parseInt($("#detail-quantity").val());
+	addItem(name, quantity);
+
+
+
+});
 
 }
 
@@ -15,26 +22,35 @@ function hideProduct(){
 
 $(".overlay").hide();
 $(".details").hide();
+$("#add-to-cart").off("click");
 }
 
-var Cart = { "frog": 4, "bird" : 1, "cat": 2}
+var Cart = { };
 
-function subtotal(items, quantity){
-	return prices[items] * quantity
+function subtotal(){
+	var items = 0;
+	var total = 0;
+	for(var key in Cart) {
+		var quantity = Cart[key];
+		var prints = Prints[key];
+		var itemPrice = quantity * prints.price;
+		total += itemPrice;
+		items += quantity;
+
+	}
+	$("#cart").text(items + " items " + "$" + total.toFixed(2));
+
 
 
 }
 
-function updateCart(){
-for(var key in Cart) {
-      var quantity = Cart[key];
-      var itemPrice = subtotal(key, quantity);
-      total += itemPrice;
-    }
-}
-function addtoCart(){
 
-$("#cart").text("test");
+function addItem(name, quantity){
+	if(!Cart[name]) { Cart[name] = 0; }
+   Cart[name] += quantity;
+   subtotal();
+
+
 }
 // When the page loads, add in our event handlers
 $(function() {
@@ -44,13 +60,8 @@ $(".current").click(function(){
 	showProduct(name);
 });
 
-$(".add-to-cart").click(function (){
-	addtoCart();
-
-
-
+$(".overlay").click(function() {
+	hideProduct();
 });
-
-$(".overlay").click(hideProduct);
-
+	
 });

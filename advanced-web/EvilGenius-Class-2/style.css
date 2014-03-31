@@ -26,6 +26,23 @@ h1 {
   font-family:arial;
 }
 
+#check-out {
+  position:fixed;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  margin:auto;
+  width:500px;
+  height:400px;
+  background-color:white;
+  padding:20px 50px;
+  border-radius:10px;
+  display:none;
+
+}
+
+
 p {
   padding-bottom:10px;
 }

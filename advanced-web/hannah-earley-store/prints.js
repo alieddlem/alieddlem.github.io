@@ -1,21 +1,21 @@
 var Prints = {
 
   "print-1": {
-    title: "Through the Woods",
+    title: "through the woods",
     price: 30,
     image: "cropped-images/1ds.gif",
-    description:  "Dynamics autonomous screw operator arm Gort wires. Motion axis diode device machine flexibility program scale direct numerical control solar interlock resistor. Rotary kawasaki motor pulley hose bolt yaw.",
+    description:  "",
   },
 
   "print-2": {
-    title: "Gemini",
+    title: "gemini",
     price: 30,
     image: "cropped-images/3ds.gif",
-    description:  "Axle register no disassemble reach repair hydraulic singularity end-effector current LaGrange multipliers save. Ball joint machine pneumatic DARPA Bishop boop solenoid simulation. Sprocket rotary driver resistor flexibility hydraulic gear hose worm gear operator kinematics."
+    description:  ""
   },
 
   "print-3": {
-    title: "Shirley",
+    title: "shirley",
     price: 30,
     image: "cropped-images/4ds.gif",
     description:  "Camera autonomous yaw error function kinematics LaGrange multipliers pulley drive train alive Gort. Operator wires laser beams alive charging autonomous industrial glass solar mechanical joint motion power direct numerical control flexibility realtime."
@@ -23,14 +23,14 @@ var Prints = {
 
 
   "print-4": {
-    title: "Blood On Your Hands",
+    title: "blood on your hands",
     price: 30,
     image: "cropped-images/5ds.gif",
     description:  "Ball joint machine pneumatic DARPA Bishop boop solenoid simulation. Sprocket rotary driver resistor flexibility hydraulic gear hose worm gear operator kinematics."
   },
 
   "print-5": {
-    title: "Sailors",
+    title: "sailors",
     price: 30,
     image: "cropped-images/6ds.gif",
     description:  "Laser beams pulley limiting device yaw LaGrange multipliers. Alive mechanical collision sensor drive power remote hydraulic Voltron limiting device servo gripper."
