@@ -84,6 +84,8 @@ html[xmlns] .clearfix { display: block; }
 
 .current {
 	display:table-cell;
+	opacity:.5;
+
 }
 
 #feed {
@@ -101,10 +103,10 @@ html[xmlns] .clearfix { display: block; }
 }
 
 .current:hover {
-	opacity:.7;
+	opacity:.99;
 	overflow:visible;
 	z-index:10;
-	background-color:rgb(47, 167, 172);
+	
 }
 
 header {
@@ -162,6 +164,7 @@ body {
 footer {
 	clear:both;
 	text-align:left;
+	position:fixed;
 
 }
 
