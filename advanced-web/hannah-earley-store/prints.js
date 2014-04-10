@@ -18,7 +18,7 @@ var Prints = {
     title: "untitled",
     price: 30,
     image: "cropped-images/4ds.gif",
-    description:  "Camera autonomous yaw error function kinematics LaGrange multipliers pulley drive train alive Gort. Operator wires laser beams alive charging autonomous industrial glass solar mechanical joint motion power direct numerical control flexibility realtime."
+    description:  "
   },
 
 
@@ -26,14 +26,14 @@ var Prints = {
     title: "untitled",
     price: 30,
     image: "cropped-images/5ds.gif",
-    description:  "Ball joint machine pneumatic DARPA Bishop boop solenoid simulation. Sprocket rotary driver resistor flexibility hydraulic gear hose worm gear operator kinematics."
+    description:  ""
   },
 
   "print-5": {
     title: "untitled",
     price: 30,
     image: "cropped-images/6ds.gif",
-    description:  "Laser beams pulley limiting device yaw LaGrange multipliers. Alive mechanical collision sensor drive power remote hydraulic Voltron limiting device servo gripper."
+    description:  ""
   },
 
 
@@ -41,97 +41,97 @@ var Prints = {
     title: "untitled",
     price: 30,
     image: "cropped-images/7ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
 },
   "print-7": {
     title: "untitled",
     price: 30,
     image: "cropped-images/8ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-8": {
     title: "untitled",
     price: 30,
     image: "cropped-images/10ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-9": {
     title: "Sister",
     price: 30,
     image: "cropped-images/11ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-10": {
     title: "untitled",
     price: 30,
     image: "cropped-images/12ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-11": {
     title: "untitled",
     price: 30,
     image: "cropped-images/13ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-12": {
     title: "untitled",
     price: 120.95,
     image: "cropped-images/19ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-13": {
     title: "untitled",
     price: 30,
     image: "cropped-images/21ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-14": {
     title: "untitled",
     price: 30,
     image: "cropped-images/22ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-15": {
     title: "untitled",
     price: 30,
     image: "cropped-images/17.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-16": {
     title: "untitled",
     price: 30,
     image: "cropped-images/18.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-17": {
     title: "untitled",
     price: 30,
     image: "cropped-images/14ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-18": {
     title: "lunch",
     price: 30,
     image: "cropped-images/15ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
   "print-19": {
     title: "untitled",
     price: 30,
     image: "cropped-images/16ds.gif",
-    description:  "Solar inverse kinematics wheel chain static motion axis hydraulic no disassemble servo dexterity memory dynamics worm gear drive train watts."
+    description:  ""
   },
 
 };
