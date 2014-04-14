@@ -18,7 +18,7 @@ var Prints = {
     title: "untitled",
     price: 30,
     image: "cropped-images/4ds.gif",
-    description:  "
+    description:  ""
   },
 
 
@@ -80,7 +80,7 @@ var Prints = {
 
   "print-12": {
     title: "untitled",
-    price: 120.95,
+    price: 30,
     image: "cropped-images/19ds.gif",
     description:  ""
   },
