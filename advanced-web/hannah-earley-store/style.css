@@ -110,14 +110,13 @@ html[xmlns] .clearfix { display: block; }
 }
 
 header {
-	display: block;
-	position: fixed;
-	width: 100%;
-	height: 8%;
-	text-align:center;
-	z-index:15;
-	color:rgba(0, 0, 0, 0.81);
-	background-color:white;
+display: block;
+position: fixed;
+width: 100%;
+height: 10%;
+text-align: center;
+z-index: 15;
+color: rgba(255, 255, 255, 0.81);
 }
 h1 a{
 	font-size:2em;
@@ -126,7 +125,7 @@ h1 a{
 	position:fixed;
 	display: block;
 	width: 100%;
-	height: 8%;
+	height: 20%;
 	padding-bottom:1%;
 	/*padding-bottom: 1%;*/
 	z-index: 10;
@@ -141,6 +140,7 @@ width:100%;
 height:1%;
 text-align: right;
 z-index: 25;
+cursor:pointer;
 }
 
 
@@ -164,9 +164,15 @@ body {
 
 footer {
 	clear:both;
-	text-align:left;
-	position:fixed;
+	text-align: left;
+	width: 100%;
+	color:white;
 
+}
+
+footer p {
+	padding-top:2%;
+	padding-left:3%;
 }
 
 .detail{
@@ -190,7 +196,7 @@ nav ul {
   width:100%;
   height:100%;
   background-color:white;
-  opacity:0.5;
+  opacity:0.7;
   display:none;
 
 }
@@ -212,6 +218,7 @@ display: none;
 #detail-title {
 font-size: 3em;
 color: black;
+text-align:left;
 }
 
 #detail-image {
@@ -223,7 +230,6 @@ color: black;
 
 #detail-description{
   width:45%;
-  float:left;
   padding-top:40px;
   padding-left:20px;
 }
@@ -244,7 +250,26 @@ margin-left: 40%;
   margin-left: 40%;
 }
 
+select {
+	border-radius: 1%;
+border: none;
+background-color: rgb(125, 210, 243);
+}
+
+option {
+border-radius: 1%;
+border: none;
+background-color: rgb(125, 210, 243);
+}
+
+#add-to-cart {
+border-radius: 1%;
+border: none;
+background-color: rgb(125, 210, 243);
+}
 
 @media screen and (max-width:#) {
     body { }
   }
+
+
