@@ -159,6 +159,7 @@ body {
 	background-color:rgba(0, 0, 0, 0.81);
 	text-align:center;
 	color: black;
+	text-transform:lowercase;
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -269,10 +270,15 @@ background-color: rgb(125, 210, 243);
 padding:2%;
 clear:both;
 margin-left:5%;
+text-transform:lowercase;
+font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 #add-to-cart:hover {
 color:white;
+}
+#detail-quantity {
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 @media screen and (max-width:#) {
