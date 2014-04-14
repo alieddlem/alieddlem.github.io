@@ -10,7 +10,7 @@ function checkOut() {
 
   var handler = StripeCheckout.configure({
     key: stripeKey,
-    image: 'http://shop-example.herokuapp.com/images/bird_bot.png',
+    image: 'http://alieddlem.github.io/advanced-web/hannah-earley-store/Images/LOGO.png',
     token: function(token, args) {
       $.post("/buy", {
         token: token.id,
@@ -54,7 +54,7 @@ function hideProduct(){
 
 $(".overlay").fadeOut("slow");
 $(".details").fadeOut("slow");
-// $("#add-to-cart").off("click");
+$("#add-to-cart").off("click");
 }
 
 

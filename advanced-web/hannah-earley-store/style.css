@@ -208,7 +208,7 @@ right: 0px;
 top: 0px;
 bottom: 0px;
 margin: auto;
-width: 60%;
+width: 50%;
 height: 70%;
 border-radius: 10px;
 display: none;
@@ -216,13 +216,13 @@ display: none;
 }
 
 #detail-title {
-font-size: 3em;
+font-size: 2.5em;
+margin-top:2%;
 color: black;
-text-align:left;
+text-align:center;
 }
 
 #detail-image {
-  float:left;
   background-color:#CCC;
   height:80%;
 
@@ -230,42 +230,49 @@ text-align:left;
 
 #detail-description{
   width:45%;
-  padding-top:40px;
-  padding-left:20px;
 }
 
 #detail-price {
 font-size: 2em;
 font-weight: bold;
-padding-top: 5%;
-padding-bottom: 5%;
-text-align: left;
-margin-left: 40%;
+padding-top: 2%;
+padding-bottom: 2%;
+text-align: center;
+
 
 }
 
 #detail-options {
-  text-align:right;
-  text-align: left;
-  margin-left: 40%;
+text-align: center;
+clear: both;
+font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 select {
 	border-radius: 1%;
 border: none;
 background-color: rgb(125, 210, 243);
+padding-right:2%;
 }
 
 option {
 border-radius: 1%;
 border: none;
 background-color: rgb(125, 210, 243);
+padding-right:2%;
 }
 
 #add-to-cart {
 border-radius: 1%;
 border: none;
 background-color: rgb(125, 210, 243);
+padding:2%;
+clear:both;
+margin-left:5%;
+}
+
+#add-to-cart:hover {
+color:white;
 }
 
 @media screen and (max-width:#) {
