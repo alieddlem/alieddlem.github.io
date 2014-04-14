@@ -119,9 +119,10 @@ header {
 	color:rgba(0, 0, 0, 0.81);
 	background-color:white;
 }
-h1 {
+h1 a{
 	font-size:2em;
-	font-family: 'Just Me Again Down Here', cursive;
+	background:url(Images/LOGO.png) no-repeat center; 
+    text-indent:-9999px;
 	position:fixed;
 	display: block;
 	width: 100%;
