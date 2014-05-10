@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href='style.css' rel='stylesheet'/>
+	<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
+	<script src='responsive-d3.js'></script>
+    <script src='paper-d3.js'></script>
+</head>
+
+<body>
+	<div class='graph'></div>
+<script>
+function renderGraph(ourData) {
+		console.log(ourData);
+
+var w = 20;
+var h = 700;
+
+var svg = d3.select(".graph").append("svg")
+						   .attr("width", 1000)
+						   .attr("height", 700);
+
+var responsiveGroup = svg.append("g")
+						.attr("transform", "translate(46,0)")
+	
+responsiveGroup.selectAll("rect")
+   .data(responsive)
+   .enter()
+   .append("rect")
+   .attr("x", function(d, i) {
+    return i * 21;  //Bar width of 20 plus 1 for padding
+})
+   .attr("y", function(d){
+   	return 390 - d.adjusted
+   })
+   .attr("fill", "red")
+   .attr("width", w)
+   .attr("height", function(d) {
+    return d.adjusted;
+});
+
+
+var paperGroup = svg.append("g")
+			.attr("transform", "translate(46,0)")
+
+paperGroup.selectAll("rect")
+   .data(paper)
+   .enter()
+   .append("rect")
+   .attr("x", function(d, i) {
+    return i * 21;  //Bar width of 20 plus 1 for padding
+})
+   .attr("y", 390)
+   .attr("width", w)
+   .attr("height", function(d) {
+    return d.adjusted;
+});
+
+
+var xScale = d3.scale.linear();
+var yScale = d3.scale.linear();
+
+var amount = d3.max(ourData, function(d) {return d.adjusted});
+
+var time = d3.max(ourData, function(d) {return d.month});
+
+xScale.range([40, 1000])
+.domain([0, time]);
+
+yScale.range([490, -100])
+.domain([0, amount]);
+
+
+
+var xAxis = d3.svg.axis()
+			.orient("bottom")
+			.scale(xScale)
+
+			svg.append("g")
+			.attr("transform", "translate(0, 390)")
+			.call(xAxis);
+
+var yAxis = d3.svg.axis()
+			.orient("left")
+			.scale(yScale)
+
+			svg.append("g")
+			.attr("class", "axis")
+			.attr("transform", "translate(46,-100)")
+			.call(yAxis);
+
+var yAxis2 = d3.svg.axis()
+			.orient("left")
+			.scale(yScale)
+
+			svg.append("g")
+			.attr("class", "axis")
+			.attr("transform", "translate(40,885), rotate(-180)")
+			.call(yAxis2);
+
+
+}
+
+renderGraph(paper);
+
+
+
+</script>
+	</body>
+
+</html>

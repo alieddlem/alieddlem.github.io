@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
+</head>
+<body>
+	<script>
+
+	function renderGraph(ourData) {
+		console.log(ourData);
+
+	var svg = d3.select("body").append("svg")
+								.attr("width", 1200)
+								.attr("height",600);
+
+	var xScale = d3.scale.linear();
+	var yScale = d3.scale.linear();
+
+	var maxLikes = d3.max(ourData, function(d) {return d.likes_count});
+
+	var maxComments = d3.max(ourData, function(d) {return d.comments_count});
+
+
+	xScale.range([40, 1100])
+	.domain([0, maxLikes]);
+
+	yScale.range([490, 0])
+	.domain([0, maxComments]);
+
+	svg.selectAll("circle")
+		.data(ourData)
+		.enter()
+		.append("circle")
+		.attr("r",5)
+		.attr("cx", function(d) {return xScale(d.likes_count||0) })
+		.attr("cy", function(d) {return yScale(d.comments_count||0) });
+
+var xAxis = d3.svg.axis()
+			.orient("bottom")
+			.scale(xScale)
+
+			svg.append("g")
+			.attr("transform", "translate(0,490)")
+			.call(xAxis);
+
+
+var yAxis = d3.svg.axis()
+			.orient("left")
+			.scale(yScale)
+
+			svg.append("g")
+			.attr("class", "axis")
+			.attr("transform", "translate(400,0)")
+			.call(yAxis);
+
+
+
+	/*var divs = d3.select("body").selectAll("img");
+
+	divs.data(ourData)
+	.enter()
+	.append ("img")
+	.attr("src",function(shot) {return shot.image_teaser_url;});
+*/
+	}
+
+
+
+	</script>
+	<script src= 'http://design-trends.herokuapp.com/shots.js?limit=100&has_images=true&order=likes_count,comments_count,image_teaser_url&callback=renderGraph'> </script>
+	</body>
+
+</html>

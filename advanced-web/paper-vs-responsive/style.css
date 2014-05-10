@@ -1,0 +1,11 @@
+body {
+	background-color:blue;
+}
+
+.graph {
+	text-align: center;
+}
+
+g .tick {
+	font-family:sans-serif;
+}
