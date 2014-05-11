@@ -194,6 +194,7 @@ body {
 	font-family:sans-serif;
 	color:white;
 	text-align:center;
+  background-color:black;
 }
 
 .overlay {
@@ -287,7 +288,7 @@ padding-bottom: 2%;
   	bottom:0px;
  	left:0px;
   	width:100%;
-  	z-index:-10;
+  	z-index:-15;
 
 }
 
@@ -295,6 +296,24 @@ padding-bottom: 2%;
 	height:10%;
 	z-index:-8;
 	text-align:center;
+}
+#eight-small {
+  width: 10%;
+}
+#abandoned-small {
+  width: 40%;
+}
+
+#buildings-small {
+  width: 40%;
+}
+
+#in-small {
+  width: 10%;
+}
+
+#boston-small {
+  width: 30%;
 }
 
 #half-title {
@@ -308,28 +327,52 @@ padding-bottom: 2%;
 #half-title li {
 display: inline;
 }
+nav {
+margin-top: 40%;
+clear:both;
+display:none;
+}
 
-#windows {
-position: relative;
-margin-top: 30%;
-display: none;
-height: 250px;
-z-index: -8;
+#windows-1 {
+margin-left:3%;
+width:100%;
+}
+#windows-2 {
+margin-left:3%;
+margin-top:3%;
+width:100%;
 }
 
 .window {
-	display:block;
-	width: 2.5%;
-	height: 3.5%;
-	background-color:black;
-	position:fixed;
+background-color: black;
+display: inline-block;
+height: 20px;
+vertical-align: top;
+width: 100%;
+zoom: 1;
+}
+.current {
+float: left;
+display: block;
+height: 4%;
+width: 3%;
+background-color: black;
+margin-left: 1%;
+-webkit-transform: skew(-15deg);
+-moz-transform: skew(-15deg);
+-o-transform: skew(-15deg);
+z-index: -5;
+
 }
 
-.window:hover .current{
-	background-color:red;
+.window:hover {
+  opacity:.99;
+  background-color:chartreuse;
+  
 }
 
-#highland {
+
+/*#highland {
 top: 71%;
 left: 6%;
 -webkit-transform: skew(-15deg);
@@ -388,7 +431,7 @@ left: 86.5%;
 -webkit-transform: skew(10deg);
 -moz-transform: skew(10deg);
 -o-transform: skew(10deg);
-}
+}*/
 
 .overlay-2 {
 	background-color:black;
