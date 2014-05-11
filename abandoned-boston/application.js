@@ -12,6 +12,12 @@ function showMainPageItems(name){
 	
 }
 
+sfunction showDetails (name){
+	$("#detail-title").text(prints.title);
+    $("#detail-image").attr("src", prints.image);
+    $("#detail-description").text(prints.description);
+    $("overlay-2").show();
+}
 
 
 
@@ -20,6 +26,11 @@ $(function() {
 $("#explore-button").click(function() {
 	hideSplash();
 	showMainPageItems();
+	});
+
+$(".current").click(function(){
+	var name = $(this).data("product-id");
+	showDetails(name);
 	});
 
 

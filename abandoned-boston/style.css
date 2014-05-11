@@ -292,15 +292,16 @@ padding-bottom: 2%;
 }
 
 .small-word {
-	float:left;
-	height:15%;
+	height:10%;
 	z-index:-8;
 	text-align:center;
 }
 
 #half-title {
+	position:fixed;
 	display: none;
-	height: 15%;
+	width:100%;
+	height:90%;
 	margin-top: -5%;
 	margin-left: 2%;
 }
