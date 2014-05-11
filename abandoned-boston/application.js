@@ -14,9 +14,10 @@ function showMainPageItems(name){
 }
 
 function showDetails (name){
-	$("#detail-title").text(prints.title);
-    $("#detail-image").attr("src", prints.image);
-    $("#detail-description").text(prints.description);
+var buildings = Buildings[name];
+	$("#detail-title").text(buildings.title);
+    $("#detail-image").attr("src", buildings.image);
+    $("#detail-description").text(buildings.description);
     $("overlay-2").show();
 }
 
@@ -24,12 +25,13 @@ function showDetails (name){
 
 // When the page loads, add in our event handlers
 $(function() {
-$("#explore-button").click(function() {
+
+	$("#explore-button").click(function() {
 	hideSplash();
 	showMainPageItems();
 	});
 
-$(".current").click(function(){
+	$(".window").click(function(){
 	var name = $(this).data("product-id");
 	showDetails(name);
 	});
