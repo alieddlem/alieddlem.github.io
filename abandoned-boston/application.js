@@ -12,7 +12,7 @@ function showMainPageItems(name){
 	
 }
 
-sfunction showDetails (name){
+function showDetails (name){
 	$("#detail-title").text(prints.title);
     $("#detail-image").attr("src", prints.image);
     $("#detail-description").text(prints.description);

@@ -301,27 +301,12 @@ padding-bottom: 2%;
 	position:fixed;
 	display: none;
 	width:100%;
-	height:90%;
 	margin-top: -5%;
 	margin-left: 2%;
 }
 
-#eight-small {
-height: 15%;
-}
-#abandoned-small {
-height: 20%;
-}
-#buildings-small {
-height: 20%;
-}
-#in-small {
-top: 8%;
-
-}
-#boston-small {
-height: 10%;
-
+#half-title li {
+display: inline;
 }
 
 #windows {
