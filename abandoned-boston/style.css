@@ -190,7 +190,7 @@ table {
     }
 }
 body {
-	background-color:black;
+	background-color:white;
 	font-family:sans-serif;
 	color:white;
 	text-align:center;
@@ -203,7 +203,6 @@ body {
   width:100%;
   height:100%;
   background-color:black;
-  opacity:0.7;
   z-index:-5;
 
 }
@@ -262,17 +261,17 @@ text-align: center;
 margin-left: 45%;
 margin-right: 45%;
 background-color: rgba(255, 255, 255, 0.5);
-border-radius: 10px;
-padding-top: 5px;
-padding-bottom: 5px;
+border-radius: 20%;
+padding-top: 2%;
+padding-bottom: 2%;
 }
 
 #explore-button p {
 text-transform: uppercase;
 color:black;
 opacity:.6;
-padding-top: 5px;
-padding-bottom: 5px
+padding-top: 2%;
+padding-bottom: 2%;
 }
 
 #explore-button:hover p{
@@ -281,4 +280,131 @@ padding-bottom: 5px
 
 #explore-button:hover {
 	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#background-image {
+	position:fixed;
+  	bottom:0px;
+ 	left:0px;
+  	width:100%;
+  	z-index:-10;
+
+}
+
+.small-word {
+	float:left;
+	height:15%;
+	z-index:-8;
+	text-align:center;
+}
+
+#half-title {
+	display: none;
+	height: 15%;
+	margin-top: -5%;
+	margin-left: 2%;
+}
+
+#eight-small {
+height: 15%;
+}
+#abandoned-small {
+height: 20%;
+}
+#buildings-small {
+height: 20%;
+}
+#in-small {
+top: 8%;
+
+}
+#boston-small {
+height: 10%;
+
+}
+
+#windows {
+position: relative;
+margin-top: 30%;
+display: none;
+height: 250px;
+z-index: -8;
+}
+
+.window {
+	display:block;
+	width: 2.5%;
+	height: 3.5%;
+	background-color:black;
+	position:fixed;
+}
+
+.window:hover .current{
+	background-color:red;
+}
+
+#highland {
+top: 71%;
+left: 6%;
+-webkit-transform: skew(-15deg);
+-moz-transform: skew(-15deg);
+-o-transform: skew(-15deg);
+}
+
+#eblana {
+top: 71.5%;
+left: 27.8%;
+-webkit-transform: skew(-7deg);
+-moz-transform: skew(-7deg);
+-o-transform: skew(-7deg);
+}
+
+#christian {
+top: 83.5%;
+left: 27%;
+-webkit-transform: skew(-7deg);
+-moz-transform: skew(-7deg);
+-o-transform: skew(-7deg);
+}
+
+#alphonsus {
+top: 83%;
+left: 4.3%;
+-webkit-transform: skew(-15deg);
+-moz-transform: skew(-15deg);
+-o-transform: skew(-15deg);
+}
+
+#convent {
+top: 71.25%;
+left: 66.25%;
+-webkit-transform: skew(8deg);
+-moz-transform: skew(8deg);
+-o-transform: skew(8deg);
+}
+#pontiac {
+top: 71.25%;
+left: 84.75%;
+-webkit-transform: skew(10deg);
+-moz-transform: skew(10deg);
+-o-transform: skew(10deg);
+}
+#furniture {
+top: 87.5%;
+left: 67%;
+-webkit-transform: skew(8deg);
+-moz-transform: skew(8deg);
+-o-transform: skew(8deg);
+}
+#broadway {
+top: 87.25%;
+left: 86.5%;
+-webkit-transform: skew(10deg);
+-moz-transform: skew(10deg);
+-o-transform: skew(10deg);
+}
+
+.overlay-2 {
+	background-color:black;
+
 }
