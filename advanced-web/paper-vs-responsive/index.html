@@ -7,30 +7,32 @@
 	<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
 	<script src='responsive-d3.js'></script>
     <script src='paper-d3.js'></script>
+    <script src='d3.js'></script>
 </head>
-
+<div id="title"><h1>Paper Design vs. Responsive Design</h1>
+</div>
 <body>
 	<div class='graph'></div>
 <script>
+
 function renderGraph(ourData) {
 		console.log(ourData);
 
-var w = 20;
-var h = 700;
+var w = 10;
+var h = 800;
 
 var svg = d3.select(".graph").append("svg")
-						   .attr("width", 1000)
-						   .attr("height", 700);
+						   .attr("width", 750)
+						   .attr("height", 800);
 
 var responsiveGroup = svg.append("g")
-						.attr("transform", "translate(46,0)")
-	
+						.attr("transform", "translate(46,0)");	
 responsiveGroup.selectAll("rect")
    .data(responsive)
    .enter()
    .append("rect")
    .attr("x", function(d, i) {
-    return i * 21;  //Bar width of 20 plus 1 for padding
+    return i * 11;  //Bar width of 10 plus 1 for padding
 })
    .attr("y", function(d){
    	return 390 - d.adjusted
@@ -50,7 +52,7 @@ paperGroup.selectAll("rect")
    .enter()
    .append("rect")
    .attr("x", function(d, i) {
-    return i * 21;  //Bar width of 20 plus 1 for padding
+    return i * 11;  //Bar width of 10 plus 1 for padding
 })
    .attr("y", 390)
    .attr("width", w)
@@ -66,7 +68,7 @@ var amount = d3.max(ourData, function(d) {return d.adjusted});
 
 var time = d3.max(ourData, function(d) {return d.month});
 
-xScale.range([40, 1000])
+xScale.range([40, 750])
 .domain([0, time]);
 
 yScale.range([490, -100])
@@ -105,6 +107,21 @@ var yAxis2 = d3.svg.axis()
 
 renderGraph(paper);
 
+svg.selectAll("text")
+   .data(dataset)
+   .enter()
+   .append("text")
+
+
+.text(function(d) {
+        return d;
+   })
+.attr("x", function(d, i) {
+        return i * (w / dataset.length);
+   })
+   .attr("y", function(d) {
+        return h - (d * 4);
+   });
 
 
 </script>

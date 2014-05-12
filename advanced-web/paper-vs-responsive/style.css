@@ -1,11 +1,22 @@
 body {
-	background-color:blue;
+	background-color:ivory;
+	text-align:center;
+	font-family:sans-serif;
 }
 
 .graph {
 	text-align: center;
+	clear:both;
 }
 
 g .tick {
 	font-family:sans-serif;
+}
+
+h1 {
+	text-transform:uppercase;
+}
+
+#title {
+	width:100%;
 }

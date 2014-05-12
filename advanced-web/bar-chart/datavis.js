@@ -19,6 +19,7 @@ var salaryParagraph = $("<p>").text(salary);
 var div= $("<div class='bar'></div>").css("width", salary);
 
 person.append(fullNameParagraph);
+person.append(salary);
 person.append(div);
 
 $("#graph").append(person);
