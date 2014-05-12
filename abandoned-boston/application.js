@@ -6,8 +6,6 @@ function hideSplash(name){
 }
 
 function showMainPageItems(name){
-	$("#windows").fadeIn("slow");
-	$("#half-title").fadeIn("slow");
 	$("nav").fadeIn("slow");
 
 	
@@ -31,7 +29,7 @@ $(function() {
 	showMainPageItems();
 	});
 
-	$(".window").click(function(){
+	$(".number").click(function(){
 	var name = $(this).data("product-id");
 	showDetails(name);
 	});
