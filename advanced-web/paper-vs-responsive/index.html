@@ -18,7 +18,7 @@
 function renderGraph(ourData) {
 		console.log(ourData);
 
-    var w = 10;
+    var w = 700/responsive.length;
     var h = 800;
 
     var svg = d3.select(".graph").append("svg")
@@ -26,102 +26,76 @@ function renderGraph(ourData) {
 						   .attr("height", 800);
 
     var responsiveGroup = svg.append("g")
-						.attr("transform", "translate(46,0)");	
-    responsiveGroup.selectAll("rect")
+						.attr("transform", "translate(46,0)");
+
+    var item = responsiveGroup.selectAll("rect")
                     .data(responsive)
                     .enter()
-                    .append("rect")
-                    .attr("x", function(d, i) {
-                    return i * 11;  //Bar width of 10 plus 1 for padding
-                    })
-                    .attr("y", function(d){
-   	                return 390 - d.adjusted
-                    })
-                    .attr("fill", "red")
-                    .attr("width", w)
-                    .attr("height", function(d) {
-                    return d.adjusted;
-                   })
+                    .append("g")
+                    .attr("transform", function(d, i){
+
+                        return "translate("+ (i * w) +
+                          "," + (390 - d.adjusted) + ")"
+
+                    });
+
+                    item.append("rect")
+                        .attr("fill", "red")
+                        .attr("width", w - 1)
+                        .attr("height", function(d) {
+                        return d.adjusted;
+                        });
+                    item.append("text")
+                        .attr("font-size", "9px")
+                        .text(function(d) {
+                        if (d.adjusted > 0)  
+                        return d.adjusted;
+                        else return "";
+
+                         })
+
 
 
   var paperGroup = svg.append("g")
-			.attr("transform", "translate(46,0)")
+			.attr("transform", "translate(46, 390)")
 
-          paperGroup.selectAll("rect")
+var item = paperGroup.selectAll("rect")
                     .data(paper)
                     .enter()
-                    .append("rect")
-                    .attr("x", function(d, i) {
-                     return i * 11;  //Bar width of 10 plus 1 for padding
-                    })
-                    .attr("y", 390)
-                    .attr("width", w)
-                    .attr("height", function(d) {
-                   return d.adjusted;
-                    })
+                    .append("g")
+                    .attr("transform", function(d, i){
+
+                        return "translate("+ (i * w) +
+                          "," + (0) + ")"
+
+                    });
+                item.append("rect")
+                        .attr("fill", "blue")
+                        .attr("width", w - 1)
+                        .attr("height", function(d) {
+                        return d.adjusted;
+                        });
+                item.append("text")
+                      .attr("font-size", "9px")
+                      .attr("color", "ivory")
+                      .attr("y", function(d) {
+                        return d.adjusted;
+                        })
+                        .text(function(d) {
+                        if (d.adjusted > 0)  
+                        return d.adjusted;
+                        else return "";
+
+                         })
 
 
-  var xScale = d3.scale.linear();
-  var yScale = d3.scale.linear();
-
-  var amount = d3.max(ourData, function(d) {return d.adjusted});
-
-  var time = d3.max(ourData, function(d) {return d.month});
-
-          xScale.range([40, 750])
-                    .domain([0, time]);
-
-          yScale.range([490, -100])
-                    .domain([0, amount]);
-
-
-
-  var xAxis = d3.svg.axis()
-			               .orient("bottom")
-			               .scale(xScale)
-
-			               svg.append("g")
-			               .attr("transform", "translate(0, 390)")
-			               .call(xAxis);
-
-  var yAxis = d3.svg.axis()
-			               .orient("left")
-			               .scale(yScale)
-
-			               svg.append("g")
-			               .attr("class", "axis")
-			               .attr("transform", "translate(46,-100)")
-			               .call(yAxis);
-
-  var yAxis2 = d3.svg.axis()
-			               .orient("left")
-			               .scale(yScale)
-
-			               svg.append("g")
-			               .attr("class", "axis")
-			               .attr("transform", "translate(40,885), rotate(-180)")
-			               .call(yAxis2);
 
 
 }
 
       renderGraph(paper);
 
-      svg.selectAll("text")
-          .data(dataset)
-          .enter()
-          .append("text")
 
-
-.text(function(d) {
-        return d;
-   })
-.attr("x", function(d, i) {
-        return i * (w / dataset.length);
-   })
-   .attr("y", function(d) {
-        return h - (d * 4);
-   });
 
 
 </script>
