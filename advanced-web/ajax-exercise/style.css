@@ -74,21 +74,38 @@ html[xmlns] .clearfix { display: block; }
 /* END RESET */
 
 body {
-	display:block;
-	background-color:blue;
-	margin: 0 auto;
+display: block;
+background-color: rgb(59, 150, 135);
+margin: 0 auto;
+font-size: 1em;
+line-height: 1.5em;
+font-family: Univers, sans serif;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
 	
 
 }
 
 .post {
-	float:left;
-	text-align:center;
+float: left;
+text-align: center;
+width: 30%;
+overflow: hidden;
 }
 
 #shots {
-	display: inline-block;
 margin-top: 5%;
-margin-left: 20%;
-margin-right: 20%;
+text-align: center;
+width: 100%;
+}
+
+#detail {
+text-align: center;
+margin-top: 10%;
+}
+
+h1 {
+	text-align: center;
+font-size: 4em;
+margin-top: 4%;
 }
