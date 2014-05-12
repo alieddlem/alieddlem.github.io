@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>"asklfh"</title>
+	<title>"gagd"</title>
 	<link href='style.css' rel='stylesheet'/>
 	<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
 	<script src='responsive-d3.js'></script>
@@ -40,13 +40,14 @@ function renderGraph(ourData) {
                     });
 
                     item.append("rect")
-                        .attr("fill", "red")
+                        .attr("fill", "chartreuse")
                         .attr("width", w - 1)
                         .attr("height", function(d) {
                         return d.adjusted;
                         });
                     item.append("text")
                         .attr("font-size", "9px")
+                        .attr("color", "white")
                         .text(function(d) {
                         if (d.adjusted > 0)  
                         return d.adjusted;
@@ -70,7 +71,7 @@ var item = paperGroup.selectAll("rect")
 
                     });
                 item.append("rect")
-                        .attr("fill", "blue")
+                        .attr("fill", "turquoise")
                         .attr("width", w - 1)
                         .attr("height", function(d) {
                         return d.adjusted;
